@@ -97,6 +97,106 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*index page end */
 /*About Page Start*/
 .about-Hero-Container{
@@ -111,11 +211,20 @@ body {
     position: relative;
     
 }
+.about-nav{
+    top: 0;
+    position: absolute;
+    display: grid;
+    height: 150px;
+    width: 100%;
+}
+
+
 .about-Hero-Img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: scale(1.5);
+    transform: scale(1.8);
     padding-left: 250px;
     filter: brightness(0.8)
 }
