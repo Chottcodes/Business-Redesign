@@ -405,34 +405,6 @@ h1{
 
 
 
-#header__grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr ;
-}
-
-.header__img{
-    grid-column: 1;
-    grid-row: 1 / 2;
-    width: 100%;
-    aspect-ratio: 16/4;
-    object-fit: cover;
-    object-position: 0px 40%;
-}
-
-.header__nav{
-    background-color: rgba(0, 0, 0, 0.248);
-    grid-column: 1;
-    grid-row: 1;
-    width: 100%;
-    display: flex;
-}
-
-.header__nav img{
-    width: 200px;
-    height: auto;
-}
-
 
 
 
