@@ -1,4 +1,16 @@
+/* general use start */
+.container-fluid{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* general use end */
+
 /*index page start */
+.index-hero{
+    width: 100%;
+}
 
 
 /*index page end */
