@@ -1,72 +1,72 @@
 /* general use start */
-.container-fluid{
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+.container-fluid {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(/assests/fonts/Inter_24pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(/assests/fonts/Inter_28pt-Bold.ttf);
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 /* general use end */
 
-/*index page start */
-.index-hero{
-    width: 100%;
+/* navbar start */
+
+#home-nav {
+  background-color: transparent;
 }
 
+.nav-format {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.384);
+}
 
+.nav {
+  width: 100%;
+  align-items: center;
+}
 
+.nav-link {
+  color: white;
+  font-family: "Inter-Bold";
+  font-size: 2rem;
+}
 
+.nav-link:hover {
+  color: chocolate;
+  text-decoration: underline;
+}
 
+.logo-img {
+  width: 200px;
+  margin: 2rem;
+}
 
+.yt-logo {
+  width: 125px;
+  margin: 1rem;
+  margin-right: 4rem;
+}
 
+/* navbar end */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*index page start */
+.index-hero {
+  width: 100%;
+}
 
 
 
