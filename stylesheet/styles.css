@@ -567,7 +567,7 @@ footer{
         font-size: 48px;
     }
     .jake-Owner-Lead-container p{
-        font-size: 30px;
+        font-size: 35px;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -577,11 +577,41 @@ footer{
         padding-top: 5%;
         padding-bottom: 5%;
     }
+    .vision-description{
+        width: 90%;
+    }
+    .vision-text p{
+        font-size: 35px;
+    }
     #book-session-BTN{
         height: 78px;
         width: 300px;
-        font-size: 2.5vw;
-        
+        font-size: 2.5vw;   
+    }
+}
+@media(max-width:992px){
+    .jake-logo img{
+        display: none;
+    }
+    #about-hero{
+        object-position: 85px ;
+        transform: scale(1.5);
+    }
+    .carousel-text-one{
+        opacity: 1;
+    }
+    .about-carousel{
+        margin-top: 0px;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-rows:1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-text{
+        grid-row: 1;
+        grid-column: span 3;
+
     }
 }
 
