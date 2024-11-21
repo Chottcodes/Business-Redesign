@@ -274,8 +274,9 @@ h1{
 /* Contact Page Start-------------------------------------------------------------- */
 
 .contact-Container {
-    width: 100%;
+  width: 100%;
     height: 473px;
+    background-color: black;
     position: relative;
   
   }
