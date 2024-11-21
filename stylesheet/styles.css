@@ -3,11 +3,84 @@
   width: 100%;
   padding: 0px;
   margin: 0px;
+<<<<<<< HEAD
+=======
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(/assests/fonts/Inter_24pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(/assests/fonts/Inter_28pt-Bold.ttf);
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  background-image: url(/assests/wallpaperwhite.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row{
+    margin: 0px;
+>>>>>>> cddae47de6f8480c66d2693d81bf8a04fdd8834f
+}
+
+h1{
+    font-family: 'Inter-Bold';
+    font-size: 64px;
+    margin: 2rem;
 }
 
 /* general use end */
 
+/* navbar start */
+
+#home-nav {
+  background-color: transparent;
+    padding-left: 200px;
+}
+
+.nav-format {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+.nav {
+  width: 100%;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  font-family: "Inter-Bold";
+  font-size: 2rem;
+}
+
+.nav-link:hover {
+  color: chocolate;
+  text-decoration: underline;
+}
+
+.logo-img {
+  width: 200px;
+  margin: 2rem;
+}
+
+.yt-logo {
+  width: 125px;
+  margin: 1rem;
+  margin-right: 4rem;
+}
+/* navbar end */
+
 /*index page start */
+<<<<<<< HEAD
 .index-hero {
   width: 100%;
 }
@@ -199,23 +272,445 @@
 
 /* Contact Page Start-------------------------------------------------------------- */
 
-.contact-Hero {
+.contact-Container {
     width: 100%;
-  height:-200px;
+    height: 473px;
+    position: relative;
   
   }
   .contact-img {
-    object-fit: cover;
     width: 100%;
-  
-  
+    height: 100%;
+    overflow: hidden;
+ }
+
+  .txt-Container{
+    position: absolute;
+
   }
   .contact-txt{
     position: relative;
     display: flex;
+    font-size: 6em;
     
   }
 
   
   /* Contact Page Ends---------------------------------------------------------- */
   
+=======
+
+
+.index-hero {
+  width: 100%;
+  margin-bottom: 1rem;
+ 
+}
+
+.landing-grid{
+    grid-row: 1; 
+    grid-column: 1/3;
+}
+
+.index-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.landing-logo{
+    width: 35vw;
+    margin: 3rem;
+}
+
+.index-format{
+    margin-bottom: 1rem;
+}
+
+.index-wedding{
+    height: 250px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: black;
+    padding: 5rem 0rem 3rem 0rem;
+}
+
+.ig-logo{
+    width: 70px;
+}
+
+
+/* GALLERY */
+.gallery-grid{
+    display: grid;
+    grid-template-rows: repeat(13,auto);
+    grid-template-columns: repeat(3,1fr);
+}
+
+.gallery-grid img{
+    width: 100%;
+}
+
+.gallery-header{
+    grid-column: 1/4;
+    grid-row: 1;
+    width: 100%;
+    height: 400px !important;
+    object-fit: cover;
+}
+
+.gallery-grid img{
+    height: 1000px;
+    object-fit: cover;
+}
+
+.gallery-grid img:hover{
+    filter: brightness(80%);
+}
+
+.gallery-header-text{
+    grid-column: 2/3;
+    grid-row: 1;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    height: fit-content;
+}
+
+.gallery-bridal{
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.gallery-bridal-text{
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    top: 50%;
+}
+
+.gallery-portraits{
+    grid-column: 1/4;
+    grid-row: 3;
+}
+
+.gallery-portraits-text{
+    grid-column: 1;
+    grid-row: 3;
+    position: relative;
+    top: 50%;
+}
+
+.gallery-swimsuit{
+    grid-column: 1/4;
+    grid-row: 4;
+}
+
+.gallery-swimsuit-text{
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    top: 50%;
+}
+
+.gallery-outdoors{
+    grid-column: 1/4;
+    grid-row: 5;
+}
+
+.gallery-outdoors-text{
+    grid-column: 1;
+    grid-row: 5;
+    position: relative;
+    top: 50%;
+}
+
+.gallery-graduation{
+    grid-column: 1/4;
+    grid-row: 6;
+}
+
+.gallery-graduation-text{
+    grid-column: 1;
+    grid-row: 6;
+    position: relative;
+    top: 50%;
+}
+
+.gallery-holiday{
+    grid-column: 1/4;
+    grid-row: 7;
+}
+
+.gallery-holiday-text{
+    grid-column: 1;
+    grid-row: 7;
+    position: relative;
+    top: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*index page end */
+/*About Page Start*/
+.about-Hero-Container{
+    width: 100%;
+    height: 473px;
+    position: relative;
+}
+.about-Hero-Img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.about-nav{
+    display: grid;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    grid-template-columns: 300px auto 300px;
+    grid-template-rows:1fr;
+    
+}
+.about-nav-img{
+    grid-column: span 1;
+    grid-row: 1;
+    
+}
+#about-nav-logo{
+    height: 50px;
+    width: 50px;
+}
+
+
+#about-hero{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.2);
+    object-position: 100px;
+    filter: brightness(0.8);
+   
+}
+.about-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about-text h1{
+    font-size: 96px;
+    color: white;
+    padding-top:50px;
+}
+.nav-about{
+    position: absolute;
+    top: 0;
+
+}
+.jake-description-container{
+    width: 65%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.jake-name-title{
+    grid-column: span 2;
+}
+.jake-name-title h1{
+    font-size: 64px;
+}
+#shrink-text{
+    font-size: 34px;
+}
+.jake-Owner-Lead-container{
+    width: 100%;
+    height: 100%;
+    
+}
+.jake-Owner-Lead-container p{
+    font-size: 24px;
+}
+.jake-logo img{
+    width: 500px;
+}
+.about-carriage{
+    height: 382px;
+    width: 723px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*About page End*/
+>>>>>>> cddae47de6f8480c66d2693d81bf8a04fdd8834f
