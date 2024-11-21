@@ -78,6 +78,225 @@ h1{
 /* navbar end */
 
 /*index page start */
+<<<<<<< HEAD
+.index-hero {
+  width: 100%;
+}
+
+/*index page end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Page Start-------------------------------------------------------------- */
+
+.contact-Container {
+    width: 100%;
+    height: 473px;
+    position: relative;
+  
+  }
+  .contact-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+ }
+
+  .txt-Container{
+    position: absolute;
+
+  }
+  .contact-txt{
+    position: relative;
+    display: flex;
+    font-size: 6em;
+    
+  }
+
+  
+  /* Contact Page Ends---------------------------------------------------------- */
+  
+=======
 
 
 .index-hero {
