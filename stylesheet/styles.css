@@ -161,6 +161,7 @@ footer{
     position: relative;
     top: 50%;
     text-align: center;
+    left: 25%;
     height: fit-content;
 }
 
@@ -270,12 +271,145 @@ footer{
     align-self: flex-end;
 }
 
+.portraits-sm-1{
+    grid-column: 1/2;
+    grid-row: 3; 
+}
+.portraits-sm-2{
+    grid-column: 2/3;
+    grid-row: 3; 
+}
+.portraits-sm-3{
+    grid-column: 3/4;
+    grid-row: 3; 
+}
+.portraits-sm-4{
+    grid-column: 1/2;
+    grid-row: 3; 
+    align-self: flex-end;
+}
+.portraits-sm-5{
+    grid-column: 2/3;
+    grid-row: 3; 
+    align-self: flex-end;
+}
+.portraits-sm-6{
+    grid-column: 3/4;
+    grid-row: 3; 
+    align-self: flex-end;
+}
 
+.swimsuit-sm-1{
+    grid-column: 1/2;
+    grid-row: 4; 
+}
+.swimsuit-sm-2{
+    grid-column: 2/3;
+    grid-row: 4; 
+}
+.swimsuit-sm-3{
+    grid-column: 3/4;
+    grid-row: 4; 
+}
+.swimsuit-sm-4{
+    grid-column: 1/2;
+    grid-row: 4; 
+    align-self: flex-end;
+}
+.swimsuit-sm-5{
+    grid-column: 2/3;
+    grid-row: 4; 
+    align-self: flex-end;
+}
+.swimsuit-sm-6{
+    grid-column: 3/4;
+    grid-row: 4; 
+    align-self: flex-end;
+}
 
+.outdoors-sm-1{
+    grid-column: 1/2;
+    grid-row: 5; 
+}
+.outdoors-sm-2{
+    grid-column: 2/3;
+    grid-row: 5; 
+}
+.outdoors-sm-3{
+    grid-column: 3/4;
+    grid-row: 5; 
+}
+.outdoors-sm-4{
+    grid-column: 1/2;
+    grid-row: 5; 
+    align-self: flex-end;
+}
+.outdoors-sm-5{
+    grid-column: 2/3;
+    grid-row: 5; 
+    align-self: flex-end;
+}
+.outdoors-sm-6{
+    grid-column: 3/4;
+    grid-row: 5; 
+    align-self: flex-end;
+}
 
+.graduation-sm-1{
+    grid-column: 1/2;
+    grid-row: 6; 
+}
+.graduation-sm-2{
+    grid-column: 2/3;
+    grid-row: 6; 
+}
+.graduation-sm-3{
+    grid-column: 3/4;
+    grid-row: 6; 
+}
+.graduation-sm-4{
+    grid-column: 1/2;
+    grid-row: 6; 
+    align-self: flex-end;
+}
+.graduation-sm-5{
+    grid-column: 2/3;
+    grid-row: 6; 
+    align-self: flex-end;
+}
+.graduation-sm-6{
+    grid-column: 3/4;
+    grid-row: 6; 
+    align-self: flex-end;
+}
 
-
-
+.holiday-sm-1{
+    grid-column: 1/2;
+    grid-row: 7; 
+}
+.holiday-sm-2{
+    grid-column: 2/3;
+    grid-row: 7; 
+}
+.holiday-sm-3{
+    grid-column: 3/4;
+    grid-row: 7; 
+}
+.holiday-sm-4{
+    grid-column: 1/2;
+    grid-row: 7; 
+    align-self: flex-end;
+}
+.holiday-sm-5{
+    grid-column: 2/3;
+    grid-row: 7; 
+    align-self: flex-end;
+}
+.holiday-sm-6{
+    grid-column: 3/4;
+    grid-row: 7; 
+    align-self: flex-end;
+}
 
 
 
