@@ -122,152 +122,292 @@ h1{
   
   /* index page end */
 
-  /* GALLERY */
-  .gallery-grid{
-      display: grid;
-      grid-template-rows: repeat(13,auto);
-      grid-template-columns: repeat(3,1fr);
-  }
-  
-  .gallery-grid h1{
-      height: fit-content;
-      width: fit-content;
-  }
-  
-  .gallery-header{
-      grid-column: 1/4;
-      grid-row: 1;
-      width: 100%;
-      height: 400px !important;
-      object-fit: cover;
-  }
-  
-  .gallery-grid #lrgIMGs{
-      height: 1000px;
-      object-fit: cover;
-      width: 100%;
-  }
-  
-  #lrgIMGs:hover{
-      opacity: 0;
-      transition: opacity .5s ease-out;
-  }
-  
-  .gallery-header-text{
-      grid-column: 2/3;
-      grid-row: 1;
-      position: relative;
-      top: 50%;
-      text-align: center;
-      height: fit-content;
-  }
-  
-  .gallery-bridal{
-      grid-column: 1/4;
-      grid-row: 2;
-  }
-  
-  .gallery-bridal-text{
-      grid-column: 1;
-      grid-row: 2;
-      position: relative;
-      top: 50%;
-  }
-  
-  .gallery-portraits{
-      grid-column: 1/4;
-      grid-row: 3;
-  }
-  
-  .gallery-portraits-text{
-      grid-column: 1;
-      grid-row: 3;
-      position: relative;
-      top: 50%;
-  }
-  
-  .gallery-swimsuit{
-      grid-column: 1/4;
-      grid-row: 4;
-  }
-  
-  .gallery-swimsuit-text{
-      grid-column: 1;
-      grid-row: 4;
-      position: relative;
-      top: 50%;
-  }
-  
-  .gallery-outdoors{
-      grid-column: 1/4;
-      grid-row: 5;
-  }
-  
-  .gallery-outdoors-text{
-      grid-column: 1;
-      grid-row: 5;
-      position: relative;
-      top: 50%;
-  }
-  
-  .gallery-graduation{
-      grid-column: 1/4;
-      grid-row: 6;
-  }
-  
-  .gallery-graduation-text{
-      grid-column: 1;
-      grid-row: 6;
-      position: relative;
-      top: 50%;
-  }
-  
-  .gallery-holiday{
-      grid-column: 1/4;
-      grid-row: 7;
-  }
-  
-  .gallery-holiday-text{
-      grid-column: 1;
-      grid-row: 7;
-      position: relative;
-      top: 50%;
-  }
-  
-  #smallIMGs{
-      height: 500px;
-      width: 100%;
-      object-fit: cover;
-  }
-  
-  .bridal-sm-1{
-      grid-column: 1/2;
-      grid-row: 2; 
-  }
-  .bridal-sm-2{
-      grid-column: 2/3;
-      grid-row: 2; 
-  }
-  .bridal-sm-3{
-      grid-column: 3/4;
-      grid-row: 2; 
-  }
-  .bridal-sm-4{
-      grid-column: 1/2;
-      grid-row: 2; 
-      align-self: flex-end;
-  }
-  .bridal-sm-5{
-      grid-column: 2/3;
-      grid-row: 2; 
-      align-self: flex-end;
-  }
-  .bridal-sm-6{
-      grid-column: 3/4;
-      grid-row: 2; 
-      align-self: flex-end;
-  }
+/* GALLERY */
+.gallery-grid{
+    display: grid;
+    grid-template-rows: repeat(13,auto);
+    grid-template-columns: repeat(3,1fr);
+}
+
+.gallery-grid h1{
+    height: fit-content;
+    width: fit-content;
+}
+
+.gallery-header{
+    grid-column: 1/4;
+    grid-row: 1;
+    width: 100%;
+    height: 400px !important;
+    object-fit: cover;
+}
+
+.gallery-grid #lrgIMGs{
+    height: 1000px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#lrgIMGs:hover{
+    opacity: 0;
+    transition: opacity .5s ease-out;
+}
+
+.gallery-header-text{
+    grid-column: 2/3;
+    grid-row: 1;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    left: 25%;
+    height: fit-content;
+}
+
+.gallery-bridal{
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.gallery-bridal-text{
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    top: 50%;
+}
+
+.gallery-portraits{
+    grid-column: 1/4;
+    grid-row: 3;
+}
+
+.gallery-portraits-text{
+    grid-column: 1;
+    grid-row: 3;
+    position: relative;
+    top: 50%;
+}
+
+.gallery-swimsuit{
+    grid-column: 1/4;
+    grid-row: 4;
+}
+
+.gallery-swimsuit-text{
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    top: 50%;
+}
+
+.gallery-outdoors{
+    grid-column: 1/4;
+    grid-row: 5;
+}
+
+.gallery-outdoors-text{
+    grid-column: 1;
+    grid-row: 5;
+    position: relative;
+    top: 50%;
+}
+
+.gallery-graduation{
+    grid-column: 1/4;
+    grid-row: 6;
+}
+
+.gallery-graduation-text{
+    grid-column: 1;
+    grid-row: 6;
+    position: relative;
+    top: 50%;
+}
+
+.gallery-holiday{
+    grid-column: 1/4;
+    grid-row: 7;
+}
+
+.gallery-holiday-text{
+    grid-column: 1;
+    grid-row: 7;
+    position: relative;
+    top: 50%;
+}
+
+#smallIMGs{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bridal-sm-1{
+    grid-column: 1/2;
+    grid-row: 2; 
+}
+.bridal-sm-2{
+    grid-column: 2/3;
+    grid-row: 2; 
+}
+.bridal-sm-3{
+    grid-column: 3/4;
+    grid-row: 2; 
+}
+.bridal-sm-4{
+    grid-column: 1/2;
+    grid-row: 2; 
+    align-self: flex-end;
+}
+.bridal-sm-5{
+    grid-column: 2/3;
+    grid-row: 2; 
+    align-self: flex-end;
+}
+.bridal-sm-6{
+    grid-column: 3/4;
+    grid-row: 2; 
+    align-self: flex-end;
+}
+
+.portraits-sm-1{
+    grid-column: 1/2;
+    grid-row: 3; 
+}
+.portraits-sm-2{
+    grid-column: 2/3;
+    grid-row: 3; 
+}
+.portraits-sm-3{
+    grid-column: 3/4;
+    grid-row: 3; 
+}
+.portraits-sm-4{
+    grid-column: 1/2;
+    grid-row: 3; 
+    align-self: flex-end;
+}
+.portraits-sm-5{
+    grid-column: 2/3;
+    grid-row: 3; 
+    align-self: flex-end;
+}
+.portraits-sm-6{
+    grid-column: 3/4;
+    grid-row: 3; 
+    align-self: flex-end;
+}
+
+.swimsuit-sm-1{
+    grid-column: 1/2;
+    grid-row: 4; 
+}
+.swimsuit-sm-2{
+    grid-column: 2/3;
+    grid-row: 4; 
+}
+.swimsuit-sm-3{
+    grid-column: 3/4;
+    grid-row: 4; 
+}
+.swimsuit-sm-4{
+    grid-column: 1/2;
+    grid-row: 4; 
+    align-self: flex-end;
+}
+.swimsuit-sm-5{
+    grid-column: 2/3;
+    grid-row: 4; 
+    align-self: flex-end;
+}
+.swimsuit-sm-6{
+    grid-column: 3/4;
+    grid-row: 4; 
+    align-self: flex-end;
+}
+
+.outdoors-sm-1{
+    grid-column: 1/2;
+    grid-row: 5; 
+}
+.outdoors-sm-2{
+    grid-column: 2/3;
+    grid-row: 5; 
+}
+.outdoors-sm-3{
+    grid-column: 3/4;
+    grid-row: 5; 
+}
+.outdoors-sm-4{
+    grid-column: 1/2;
+    grid-row: 5; 
+    align-self: flex-end;
+}
+.outdoors-sm-5{
+    grid-column: 2/3;
+    grid-row: 5; 
+    align-self: flex-end;
+}
+.outdoors-sm-6{
+    grid-column: 3/4;
+    grid-row: 5; 
+    align-self: flex-end;
+}
+
+.graduation-sm-1{
+    grid-column: 1/2;
+    grid-row: 6; 
+}
+.graduation-sm-2{
+    grid-column: 2/3;
+    grid-row: 6; 
+}
+.graduation-sm-3{
+    grid-column: 3/4;
+    grid-row: 6; 
+}
+.graduation-sm-4{
+    grid-column: 1/2;
+    grid-row: 6; 
+    align-self: flex-end;
+}
+.graduation-sm-5{
+    grid-column: 2/3;
+    grid-row: 6; 
+    align-self: flex-end;
+}
+.graduation-sm-6{
+    grid-column: 3/4;
+    grid-row: 6; 
+    align-self: flex-end;
+}
 
+.holiday-sm-1{
+    grid-column: 1/2;
+    grid-row: 7; 
+}
+.holiday-sm-2{
+    grid-column: 2/3;
+    grid-row: 7; 
+}
+.holiday-sm-3{
+    grid-column: 3/4;
+    grid-row: 7; 
+}
+.holiday-sm-4{
+    grid-column: 1/2;
+    grid-row: 7; 
+    align-self: flex-end;
+}
+.holiday-sm-5{
+    grid-column: 2/3;
+    grid-row: 7; 
+    align-self: flex-end;
+}
+.holiday-sm-6{
+    grid-column: 3/4;
+    grid-row: 7; 
+    align-self: flex-end;
+}
 
 
 
@@ -327,99 +467,7 @@ h1{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*index page end */
 /*About Page Start*/
 .about-Hero-Container{
     width: 100%;
