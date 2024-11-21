@@ -19,6 +19,7 @@ body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   background-image: url(/assests/wallpaperwhite.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -130,8 +131,9 @@ footer{
     grid-template-columns: repeat(3,1fr);
 }
 
-.gallery-grid img{
-    width: 100%;
+.gallery-grid h1{
+    height: fit-content;
+    width: fit-content;
 }
 
 .gallery-header{
@@ -142,13 +144,15 @@ footer{
     object-fit: cover;
 }
 
-.gallery-grid img{
+.gallery-grid #lrgIMGs{
     height: 1000px;
     object-fit: cover;
+    width: 100%;
 }
 
-.gallery-grid img:hover{
-    filter: brightness(80%);
+#lrgIMGs:hover{
+    opacity: 0;
+    transition: opacity .5s ease-out;
 }
 
 .gallery-header-text{
@@ -230,6 +234,40 @@ footer{
     grid-row: 7;
     position: relative;
     top: 50%;
+}
+
+#smallIMGs{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bridal-sm-1{
+    grid-column: 1/2;
+    grid-row: 2; 
+}
+.bridal-sm-2{
+    grid-column: 2/3;
+    grid-row: 2; 
+}
+.bridal-sm-3{
+    grid-column: 3/4;
+    grid-row: 2; 
+}
+.bridal-sm-4{
+    grid-column: 1/2;
+    grid-row: 2; 
+    align-self: flex-end;
+}
+.bridal-sm-5{
+    grid-column: 2/3;
+    grid-row: 2; 
+    align-self: flex-end;
+}
+.bridal-sm-6{
+    grid-column: 3/4;
+    grid-row: 2; 
+    align-self: flex-end;
 }
 
 
