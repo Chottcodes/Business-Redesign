@@ -79,198 +79,8 @@ h1{
 
 /*index page start */
 .index-hero {
-  width: 100%;
-}
-
-/*index page end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Contact Page Start-------------------------------------------------------------- */
-
-.contact-Container {
     width: 100%;
+<<<<<<< HEAD
     height: 473px;
     position: relative;
   
@@ -325,25 +135,49 @@ h1{
 }
 
 .index-format{
+=======
+>>>>>>> a25f0d56c7a8b58d5f8283e6f892b69efd2edd0b
     margin-bottom: 1rem;
-}
-
-.index-wedding{
-    height: 250px;
-}
-
-
-/* footer */
-
-footer{
-    background-color: black;
-    padding: 5rem 0rem 3rem 0rem;
-}
-
-.ig-logo{
-    width: 70px;
-}
-
+   
+  }
+  
+  .landing-grid{
+      grid-row: 1; 
+      grid-column: 1/3;
+  }
+  
+  .index-grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      align-items: center;
+  }
+  
+  .landing-logo{
+      width: 35vw;
+      margin: 3rem;
+  }
+  
+  .index-format{
+      margin-bottom: 1rem;
+  }
+  
+  .index-wedding{
+      height: 250px;
+  }
+  
+  /* footer */
+  
+  footer{
+      background-color: black;
+      padding: 5rem 0rem 3rem 0rem;
+  }
+  
+  .ig-logo{
+      width: 70px;
+  }
+  
+/* index page end */
 
 /* GALLERY */
 .gallery-grid{
@@ -382,6 +216,7 @@ footer{
     position: relative;
     top: 50%;
     text-align: center;
+    left: 25%;
     height: fit-content;
 }
 
@@ -491,72 +326,148 @@ footer{
     align-self: flex-end;
 }
 
+.portraits-sm-1{
+    grid-column: 1/2;
+    grid-row: 3; 
+}
+.portraits-sm-2{
+    grid-column: 2/3;
+    grid-row: 3; 
+}
+.portraits-sm-3{
+    grid-column: 3/4;
+    grid-row: 3; 
+}
+.portraits-sm-4{
+    grid-column: 1/2;
+    grid-row: 3; 
+    align-self: flex-end;
+}
+.portraits-sm-5{
+    grid-column: 2/3;
+    grid-row: 3; 
+    align-self: flex-end;
+}
+.portraits-sm-6{
+    grid-column: 3/4;
+    grid-row: 3; 
+    align-self: flex-end;
+}
+
+.swimsuit-sm-1{
+    grid-column: 1/2;
+    grid-row: 4; 
+}
+.swimsuit-sm-2{
+    grid-column: 2/3;
+    grid-row: 4; 
+}
+.swimsuit-sm-3{
+    grid-column: 3/4;
+    grid-row: 4; 
+}
+.swimsuit-sm-4{
+    grid-column: 1/2;
+    grid-row: 4; 
+    align-self: flex-end;
+}
+.swimsuit-sm-5{
+    grid-column: 2/3;
+    grid-row: 4; 
+    align-self: flex-end;
+}
+.swimsuit-sm-6{
+    grid-column: 3/4;
+    grid-row: 4; 
+    align-self: flex-end;
+}
+
+.outdoors-sm-1{
+    grid-column: 1/2;
+    grid-row: 5; 
+}
+.outdoors-sm-2{
+    grid-column: 2/3;
+    grid-row: 5; 
+}
+.outdoors-sm-3{
+    grid-column: 3/4;
+    grid-row: 5; 
+}
+.outdoors-sm-4{
+    grid-column: 1/2;
+    grid-row: 5; 
+    align-self: flex-end;
+}
+.outdoors-sm-5{
+    grid-column: 2/3;
+    grid-row: 5; 
+    align-self: flex-end;
+}
+.outdoors-sm-6{
+    grid-column: 3/4;
+    grid-row: 5; 
+    align-self: flex-end;
+}
+
+.graduation-sm-1{
+    grid-column: 1/2;
+    grid-row: 6; 
+}
+.graduation-sm-2{
+    grid-column: 2/3;
+    grid-row: 6; 
+}
+.graduation-sm-3{
+    grid-column: 3/4;
+    grid-row: 6; 
+}
+.graduation-sm-4{
+    grid-column: 1/2;
+    grid-row: 6; 
+    align-self: flex-end;
+}
+.graduation-sm-5{
+    grid-column: 2/3;
+    grid-row: 6; 
+    align-self: flex-end;
+}
+.graduation-sm-6{
+    grid-column: 3/4;
+    grid-row: 6; 
+    align-self: flex-end;
+}
+
+.holiday-sm-1{
+    grid-column: 1/2;
+    grid-row: 7; 
+}
+.holiday-sm-2{
+    grid-column: 2/3;
+    grid-row: 7; 
+}
+.holiday-sm-3{
+    grid-column: 3/4;
+    grid-row: 7; 
+}
+.holiday-sm-4{
+    grid-column: 1/2;
+    grid-row: 7; 
+    align-self: flex-end;
+}
+.holiday-sm-5{
+    grid-column: 2/3;
+    grid-row: 7; 
+    align-self: flex-end;
+}
+.holiday-sm-6{
+    grid-column: 3/4;
+    grid-row: 7; 
+    align-self: flex-end;
+}
+
+/* gallery end */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*index page end */
 /*About Page Start*/
 .about-Hero-Container{
     width: 100%;
@@ -835,99 +746,32 @@ footer{
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*About page End*/
+
+/* Contact Page Start-------------------------------------------------------------- */
+
+.contact-Container {
+    width: 100%;
+    height: 473px;
+    position: relative;
+  
+  }
+  .contact-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+ }
+
+  .txt-Container{
+    position: absolute;
+
+  }
+  .contact-txt{
+    position: relative;
+    display: flex;
+    font-size: 6em;
+    
+  }
+
+  
+  /* Contact Page Ends---------------------------------------------------------- */
