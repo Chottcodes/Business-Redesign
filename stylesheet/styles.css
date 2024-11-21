@@ -79,39 +79,6 @@ h1{
 
 /*index page start */
 .index-hero {
-    width: 100%;
-<<<<<<< HEAD
-    height: 473px;
-    position: relative;
-  
-  }
-  .contact-img {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
- }
-
-  .txt-Container{
-    position: absolute;
-
-  }
-  .contact-txt{
-    position: relative;
-    display: flex;
-    font-size: 6em;
-    
-  }
-
-  
-  /* Contact Page Ends---------------------------------------------------------- */
-<<<<<<< HEAD
-  
-
-=======
->>>>>>> 833d9387c224a2fd63ef810b780dab28fbc38bcb
-
-
-.index-hero {
   width: 100%;
   margin-bottom: 1rem;
  
@@ -135,8 +102,8 @@ h1{
 }
 
 .index-format{
-=======
->>>>>>> a25f0d56c7a8b58d5f8283e6f892b69efd2edd0b
+
+
     margin-bottom: 1rem;
    
   }
