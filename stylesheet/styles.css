@@ -550,8 +550,38 @@ footer{
 }
 
 @media (max-width:1225px) {
-    .about-Hero-Img img{
-        transform: scale(1.0);
+    #about-hero{
+        object-position: 10% 30%;
+    }
+}
+@media(max-width:1096px)
+{
+    #about-hero{
+        object-position: 85px ;
+        transform: scale(1.5);
+    }
+    .jake-description-container{
+        width: 90%;
+    }
+    .jake-name-title h1{
+        font-size: 48px;
+    }
+    .jake-Owner-Lead-container p{
+        font-size: 30px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .button-div{
+        height: 100%;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #book-session-BTN{
+        height: 78px;
+        width: 300px;
+        font-size: 2.5vw;
+        
     }
 }
 
