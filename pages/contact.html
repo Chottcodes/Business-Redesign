@@ -11,9 +11,9 @@
 </head>
 
 <body>
-
   <header>
-    <nav class="nav-format nav-contact">
+    <!-- Navbar------------------------------------------------------------------------------------------------------>
+    <nav class="nav-format nav-contact ">
       <div>
         <a href="../index.html"><img class="logo-img" src="../assests/Logo_for_website_assignment-removebg-preview.png"
             alt="vision images logo" /></a>
@@ -35,6 +35,11 @@
       </div>
     </nav>
 
+
+
+
+
+    <!-- Hero-Image---------------------------------------------------------------------------------------------------->
     <div class="contact-Container">
       <div class="about-Hero-Img">
         <img src="../assests/Fashion1A.jpg" alt="image of model" id="about-hero" />
@@ -42,9 +47,55 @@
           <h1>Contact</h1>
         </div>
       </div>
-    </div>
-  </header>
 
+
+
+
+
+      <!-- Mobile Navbar--------------------------------------------------------------------------------------- -->
+      <nav class="navbar smaller-nav-bg   nav-Mobile ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img id="smaller-nav-logo"
+              src="../assests/Logo_for_website_assignment-removebg-preview.png" alt="company logo"></a>
+          <button class="navbar-toggler smaller-nav-BTN" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+
+            <div class="offcanvas-body bg-dark">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html" style="color: white;">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./about.html" style="color: white;">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./gallery.html" style="color: white;">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page"
+                    href="https://www.instagram.com/vision_images_by_jake/"> <img src="../assests/instagram (1).png"
+                      alt="Instagram Logo"> </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="https://www.youtube.com/@visionimages-vipv"> <img
+                      src="../assests/youtube (1).png" alt="Youtube Logo"></a>
+                </li>
+              </ul>
+              </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- Info Section---------------------------------------------------------------------------------------------------------->
+  </header>
   <div class="vision-txt">
     <h2>
       We want to talk about your vision.</h2>
@@ -66,16 +117,18 @@
     <div class="pic-Container">
       <img class="contact-Logo" src="../assests/Logo_for_website_assignment-removebg-preview.png" alt="">
     </div>
-
   </div>
+
+
 
   <div class="message-Container">
     <p>Your message*</p>
     <input class="message-Box" type="text">
   </div>
 
-  <div class="contact-Button container-fluid">
 
+
+  <div class="contact-Button container-fluid">
     <button id="submit-BTN">Submit</button>
   </div>
 
@@ -83,6 +136,11 @@
     <img class="contact-img2" src="../assests/Couples1A.jpg" alt="Image of a couple posing">
   </div>
 
+
+
+
+
+  <!-- Footer Section----------------------------------------------------------------------------------------------------------->
   <footer class="footer-container">
     <div class="container-fluid">
       <div class="row">
