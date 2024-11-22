@@ -23,14 +23,14 @@ body {
   background-size: cover;
 }
 
-.row{
-    margin: 0px;
+.row {
+  margin: 0px;
 }
 
-h1{
-    font-family: 'Inter-Bold';
-    font-size: 64px;
-    margin: 2rem;
+h1 {
+  font-family: "Inter-Bold";
+  font-size: 64px;
+  margin: 2rem;
 }
 
 /* general use end */
@@ -39,7 +39,7 @@ h1{
 
 #home-nav {
   background-color: transparent;
-    padding-left: 200px;
+  padding-left: 200px;
 }
 
 .nav-format {
@@ -81,58 +81,57 @@ h1{
 .index-hero {
   width: 100%;
   margin-bottom: 1rem;
- 
 }
 
-.landing-grid{
-    grid-row: 1; 
-    grid-column: 1/3;
+.landing-grid {
+  grid-row: 1;
+  grid-column: 1/3;
 }
 
-.index-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
+.index-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
 }
 
-.landing-logo{
-    width: 35vw;
-    margin: 3rem;
+.landing-logo {
+  width: 35vw;
+  margin: 3rem;
 }
 
-.index-format{
-    margin-bottom: 1rem;
-  }
-  
-  .landing-grid{
-      grid-row: 1; 
-      grid-column: 1/3;
-  }
-  
-  .index-grid{
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      align-items: center;
-  }
-  
-  .landing-logo{
-      width: 35vw;
-      margin: 3rem;
-  }
-  
-  .index-format{
-      margin-bottom: 1rem;
-  }
+.index-format {
+  margin-bottom: 1rem;
+}
 
-  .index-format h1{
-    font-size: 96px;
-  }
+.landing-grid {
+  grid-row: 1;
+  grid-column: 1/3;
+}
 
-  .index-format h3{
-    font-size: 36px;
-  }
+.index-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+.landing-logo {
+  width: 35vw;
+  margin: 3rem;
+}
+
+.index-format {
+  margin-bottom: 1rem;
+}
+
+.index-format h1 {
+  font-size: 96px;
+}
+
+.index-format h3 {
+  font-size: 36px;
+}
 
   #index-coverimgs{
     height: 100%;
@@ -157,940 +156,939 @@ h1{
 /* end index responsiveness */
 
 /* GALLERY */
-.gallery-grid{
-    display: grid;
-    grid-template-rows: repeat(7,auto);
-    grid-template-columns: repeat(3,1fr);
+#gallery-body {
+  background-color: black !important;
+  background-image: none;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-rows: repeat(7, auto);
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.gallery-grid h1{
+.gallery-grid h1 {
+  height: fit-content;
+  max-width: fit-content;
+  margin-right: 0px;
+}
+
+.gallery-header {
+  grid-column: 1/4;
+  grid-row: 1;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.gallery-grid #lrgIMGs {
+  height: 1000px;
+  object-fit: cover;
+  width: 100%;
+}
+
+#lrgIMGs:hover {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.gallery-header-text {
+  position: absolute;
+  top: 22%;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  margin: 0px;
+  font-size: 84px;
+  width: 0px;
+}
+
+.gallery-bridal {
+  grid-column: 1/4;
+  grid-row: 2;
+}
+
+.gallery-bridal-text {
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+  top: 50%;
+}
+
+.gallery-portraits {
+  grid-column: 1/4;
+  grid-row: 3;
+}
+
+.gallery-portraits-text {
+  grid-column: 1;
+  grid-row: 3;
+  position: relative;
+  top: 50%;
+}
+
+.gallery-swimsuit {
+  grid-column: 1/4;
+  grid-row: 4;
+}
+
+.gallery-swimsuit-text {
+  grid-column: 1;
+  grid-row: 4;
+  position: relative;
+  top: 50%;
+}
+
+.gallery-outdoors {
+  grid-column: 1/4;
+  grid-row: 5;
+}
+
+.gallery-outdoors-text {
+  grid-column: 1;
+  grid-row: 5;
+  position: relative;
+  top: 50%;
+}
+
+.gallery-graduation {
+  grid-column: 1/4;
+  grid-row: 6;
+}
+
+.gallery-graduation-text {
+  grid-column: 1;
+  grid-row: 6;
+  position: relative;
+  top: 50%;
+}
+
+.gallery-holiday {
+  grid-column: 1/4;
+  grid-row: 7;
+}
+
+.gallery-holiday-text {
+  grid-column: 1;
+  grid-row: 7;
+  position: relative;
+  top: 50%;
+}
+
+#smallIMGs {
+  height: 500px;
+  width: 100%;
+  object-fit: fill;
+}
+
+.bridal-sm-1 {
+  grid-column: 1/2;
+  grid-row: 2;
+}
+.bridal-sm-2 {
+  grid-column: 2/3;
+  grid-row: 2;
+}
+.bridal-sm-3 {
+  grid-column: 3/4;
+  grid-row: 2;
+}
+.bridal-sm-4 {
+  grid-column: 1/2;
+  grid-row: 2;
+  align-self: flex-end;
+}
+.bridal-sm-5 {
+  grid-column: 2/3;
+  grid-row: 2;
+  align-self: flex-end;
+}
+.bridal-sm-6 {
+  grid-column: 3/4;
+  grid-row: 2;
+  align-self: flex-end;
+}
+
+.portraits-sm-1 {
+  grid-column: 1/2;
+  grid-row: 3;
+}
+.portraits-sm-2 {
+  grid-column: 2/3;
+  grid-row: 3;
+}
+.portraits-sm-3 {
+  grid-column: 3/4;
+  grid-row: 3;
+}
+.portraits-sm-4 {
+  grid-column: 1/2;
+  grid-row: 3;
+  align-self: flex-end;
+}
+.portraits-sm-5 {
+  grid-column: 2/3;
+  grid-row: 3;
+  align-self: flex-end;
+}
+.portraits-sm-6 {
+  grid-column: 3/4;
+  grid-row: 3;
+  align-self: flex-end;
+}
+
+.swimsuit-sm-1 {
+  grid-column: 1/2;
+  grid-row: 4;
+}
+.swimsuit-sm-2 {
+  grid-column: 2/3;
+  grid-row: 4;
+}
+.swimsuit-sm-3 {
+  grid-column: 3/4;
+  grid-row: 4;
+  height: 100%;
+}
+.swimsuit-sm-4 {
+  grid-column: 1/2;
+  grid-row: 4;
+  align-self: flex-end;
+}
+.swimsuit-sm-5 {
+  grid-column: 2/3;
+  grid-row: 4;
+  align-self: flex-end;
+}
+.swimsuit-sm-6 {
+  grid-column: 3/4;
+  grid-row: 4;
+  align-self: flex-end;
+}
+
+.outdoors-sm-1 {
+  grid-column: 1/2;
+  grid-row: 5;
+}
+.outdoors-sm-2 {
+  grid-column: 2/3;
+  grid-row: 5;
+}
+.outdoors-sm-3 {
+  grid-column: 3/4;
+  grid-row: 5;
+}
+.outdoors-sm-4 {
+  grid-column: 1/2;
+  grid-row: 5;
+  align-self: flex-end;
+}
+.outdoors-sm-5 {
+  grid-column: 2/3;
+  grid-row: 5;
+  align-self: flex-end;
+}
+.outdoors-sm-6 {
+  grid-column: 3/4;
+  grid-row: 5;
+  align-self: flex-end;
+}
+
+.graduation-sm-1 {
+  grid-column: 1/2;
+  grid-row: 6;
+}
+.graduation-sm-2 {
+  grid-column: 2/3;
+  grid-row: 6;
+}
+.graduation-sm-3 {
+  grid-column: 3/4;
+  grid-row: 6;
+}
+.graduation-sm-4 {
+  grid-column: 1/2;
+  grid-row: 6;
+  align-self: flex-end;
+}
+.graduation-sm-5 {
+  grid-column: 2/3;
+  grid-row: 6;
+  align-self: flex-end;
+}
+.graduation-sm-6 {
+  grid-column: 3/4;
+  grid-row: 6;
+  align-self: flex-end;
+}
+
+.holiday-sm-1 {
+  grid-column: 1/2;
+  grid-row: 7;
+}
+.holiday-sm-2 {
+  grid-column: 2/3;
+  grid-row: 7;
+}
+.holiday-sm-3 {
+  grid-column: 3/4;
+  grid-row: 7;
+}
+.holiday-sm-4 {
+  grid-column: 1/2;
+  grid-row: 7;
+  align-self: flex-end;
+}
+.holiday-sm-5 {
+  grid-column: 2/3;
+  grid-row: 7;
+  align-self: flex-end;
+}
+.holiday-sm-6 {
+  grid-column: 3/4;
+  grid-row: 7;
+  align-self: flex-end;
+}
+
+
+
+/* gallery responsiveness */
+@media screen and (max-width: 1200px) {
+  .gallery-grid h1 {
+    margin-right: 0px;
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .gallery-grid-2 {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(12, auto);
+  }
+
+  .gallery-grid-2 h1 {
     height: fit-content;
-    width: fit-content;
-}
+    max-width: fit-content;
+    font-size: 48px;
+  }
 
-.gallery-header{
-    grid-column: 1/4;
+  .gallery-grid {
+    display: none;
+  }
+
+  #lrgIMGs {
+    width: 100%;
+    height: 800px;
+  }
+  #smallIMGs {
+    height: 400px;
+  }
+
+  .bridal-sm-1 {
+    grid-column: 1/2;
     grid-row: 1;
-    width: 100%;
-    height: 400px !important;
-    object-fit: cover;
-}
-
-.gallery-grid #lrgIMGs{
-    max-height: 1000px;
-    object-fit: cover;
-    width: 100%;
-}
-
-#lrgIMGs:hover{
-    opacity: 0;
-    transition: opacity .5s ease-out;
-}
-
-.gallery-header-text{
+  }
+  .bridal-sm-2 {
     grid-column: 2/3;
     grid-row: 1;
-    position: relative;
-    top: 50%;
-    text-align: center;
-    left: 25%;
+  }
+  .bridal-sm-3 {
+    grid-column: 1/2;
+    grid-row: 1;
+    align-self: flex-end;
+  }
+  .bridal-sm-4 {
+    grid-column: 2/3;
+    grid-row: 1;
+    align-self: flex-end;
+  }
+
+  .gallery-bridal {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+  .gallery-bridal-text {
+    grid-row: 1;
+  }
+
+  .gallery-portraits {
+    grid-row: 2;
+    grid-column: 1/3;
+  }
+
+  .portraits-sm-1 {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+  .portraits-sm-2 {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+  .portraits-sm-3 {
+    grid-column: 1/2;
+    grid-row: 2;
+    align-self: flex-end;
+  }
+  .portraits-sm-4 {
+    grid-column: 2/3;
+    grid-row: 2;
+    align-self: flex-end;
+  }
+
+  .gallery-portraits-text {
+    grid-row: 2;
+  }
+
+  .gallery-swimsuit {
+    grid-row: 3;
+    grid-column: 1/3;
+  }
+
+  .swimsuit-sm-1 {
+    grid-column: 1/2;
+    grid-row: 3;
+  }
+  .swimsuit-sm-2 {
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+  .swimsuit-sm-3 {
+    grid-column: 1/2;
+    grid-row: 3;
+    align-self: flex-end;
+  }
+  .swimsuit-sm-4 {
+    grid-column: 2/3;
+    grid-row: 3;
+    align-self: flex-end;
+  }
+
+  .gallery-swimsuit-text {
+    grid-row: 3;
+  }
+
+  .gallery-outdoors {
+    grid-row: 4;
+    grid-column: 1/3;
+  }
+
+  .outdoors-sm-1 {
+    grid-column: 1/2;
+    grid-row: 4;
+  }
+  .outdoors-sm-2 {
+    grid-column: 2/3;
+    grid-row: 4;
+  }
+  .outdoors-sm-3 {
+    grid-column: 1/2;
+    grid-row: 4;
+    align-self: flex-end;
+  }
+  .outdoors-sm-4 {
+    grid-column: 2/3;
+    grid-row: 4;
+    align-self: flex-end;
+  }
+
+  .gallery-outdoors-text {
+    grid-row: 4;
+  }
+
+  .gallery-graduation {
+    grid-row: 5;
+    grid-column: 1/3;
+  }
+
+  .graduation-sm-1 {
+    grid-column: 1/2;
+    grid-row: 5;
+  }
+  .graduation-sm-2 {
+    grid-column: 2/3;
+    grid-row: 5;
+  }
+  .graduation-sm-3 {
+    grid-column: 1/2;
+    grid-row: 5;
+    align-self: flex-end;
+  }
+  .graduation-sm-4 {
+    grid-column: 2/3;
+    grid-row: 5;
+    align-self: flex-end;
+  }
+
+  .gallery-graduation-text {
+    grid-row: 5;
+  }
+
+  .gallery-holiday {
+    grid-row: 6;
+    grid-column: 1/3;
+  }
+
+  .holiday-sm-1 {
+    grid-column: 1/2;
+    grid-row: 6;
+  }
+  .holiday-sm-2 {
+    grid-column: 2/3;
+    grid-row: 6;
+  }
+  .holiday-sm-3 {
+    grid-column: 1/2;
+    grid-row: 6;
+    align-self: flex-end;
+  }
+  .holiday-sm-4 {
+    grid-column: 2/3;
+    grid-row: 6;
+    align-self: flex-end;
+  }
+
+  .gallery-holiday-text {
+    grid-row: 6;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-grid-2 h1 {
+    display: none;
+  }
+
+  #smallIMGs {
+    object-fit: cover;
+  }
+}
+
+.gallery-bridal-text-mobile {
+  top: 750px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  margin: 0px;
+  font-size: 14vw;
+  width: 0px;
+  color: white;
+}
+.gallery-portraits-text-mobile {
+  top: 1550px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  margin: 0px;
+  font-size: 14vw;
+  width: 0px;
+  color: white;
+}
+.gallery-swimsuit-text-mobile {
+  top: 2350px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  margin: 0px;
+  font-size: 14vw;
+  width: 0px;
+  color: white;
+}
+.gallery-outdoors-text-mobile {
+  top: 3140px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  margin: 0px;
+  font-size: 14vw;
+  width: 0px;
+  color: white;
+}
+.gallery-graduation-text-mobile {
+  top: 3950px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  margin: 0px;
+  font-size: 14vw;
+  width: 0px;
+  color: white;
+}
+.gallery-holiday-text-mobile {
+  top: 4750px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  margin: 0px;
+  font-size: 14vw;
+  width: 0px;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  #lrgIMGs {
+    display: none;
+  }
+
+  .mobile-titles h1 {
+    display: none;
+  }
+
+  #smallIMGs:active {
+    width: 100%;
     height: fit-content;
-}
+    position: fixed;
+    object-fit: contain;
+    top: calc(50% - 200px);
+    left: calc(0%);
+  }
 
-.gallery-bridal{
-    grid-column: 1/4;
+  .bridal-sm-1 {
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+  .bridal-sm-2 {
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+  .bridal-sm-3 {
+    grid-column: 1/2;
     grid-row: 2;
-}
-
-.gallery-bridal-text{
-    grid-column: 1;
+  }
+  .bridal-sm-4 {
+    grid-column: 2/3;
     grid-row: 2;
-    position: relative;
-    top: 50%;
-}
-
-.gallery-portraits{
-    grid-column: 1/4;
+  }
+  .portraits-sm-1 {
+    grid-column: 1/2;
     grid-row: 3;
-}
-
-.gallery-portraits-text{
-    grid-column: 1;
+  }
+  .portraits-sm-2 {
+    grid-column: 2/3;
     grid-row: 3;
-    position: relative;
-    top: 50%;
-}
-
-.gallery-swimsuit{
-    grid-column: 1/4;
+  }
+  .portraits-sm-3 {
+    grid-column: 1/2;
     grid-row: 4;
-}
-
-.gallery-swimsuit-text{
-    grid-column: 1;
+  }
+  .portraits-sm-4 {
+    grid-column: 2/3;
     grid-row: 4;
-    position: relative;
-    top: 50%;
-}
-
-.gallery-outdoors{
-    grid-column: 1/4;
+  }
+  .swimsuit-sm-1 {
+    grid-column: 1/2;
     grid-row: 5;
-}
-
-.gallery-outdoors-text{
-    grid-column: 1;
+  }
+  .swimsuit-sm-2 {
+    grid-column: 2/3;
     grid-row: 5;
-    position: relative;
-    top: 50%;
-}
-
-.gallery-graduation{
-    grid-column: 1/4;
+  }
+  .swimsuit-sm-3 {
+    grid-column: 1/2;
     grid-row: 6;
-}
-
-.gallery-graduation-text{
-    grid-column: 1;
+  }
+  .swimsuit-sm-4 {
+    grid-column: 2/3;
     grid-row: 6;
-    position: relative;
-    top: 50%;
-}
-
-.gallery-holiday{
-    grid-column: 1/4;
+  }
+  .outdoors-sm-1 {
+    grid-column: 1/2;
     grid-row: 7;
-}
-
-.gallery-holiday-text{
-    grid-column: 1;
+  }
+  .outdoors-sm-2 {
+    grid-column: 2/3;
     grid-row: 7;
-    position: relative;
-    top: 50%;
-}
-
-#smallIMGs{
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.bridal-sm-1{
+  }
+  .outdoors-sm-3 {
     grid-column: 1/2;
-    grid-row: 2; 
-}
-.bridal-sm-2{
+    grid-row: 8;
+  }
+  .outdoors-sm-4 {
     grid-column: 2/3;
-    grid-row: 2; 
-}
-.bridal-sm-3{
-    grid-column: 3/4;
-    grid-row: 2; 
-}
-.bridal-sm-4{
+    grid-row: 8;
+  }
+  .graduation-sm-1 {
     grid-column: 1/2;
-    grid-row: 2; 
-    align-self: flex-end;
-}
-.bridal-sm-5{
+    grid-row: 9;
+  }
+  .graduation-sm-2 {
     grid-column: 2/3;
-    grid-row: 2; 
-    align-self: flex-end;
-}
-.bridal-sm-6{
-    grid-column: 3/4;
-    grid-row: 2; 
-    align-self: flex-end;
-}
-
-.portraits-sm-1{
+    grid-row: 9;
+  }
+  .graduation-sm-3 {
     grid-column: 1/2;
-    grid-row: 3; 
-}
-.portraits-sm-2{
+    grid-row: 10;
+  }
+  .graduation-sm-4 {
     grid-column: 2/3;
-    grid-row: 3; 
-}
-.portraits-sm-3{
-    grid-column: 3/4;
-    grid-row: 3; 
-}
-.portraits-sm-4{
+    grid-row: 10;
+  }
+  .holiday-sm-1 {
     grid-column: 1/2;
-    grid-row: 3; 
-    align-self: flex-end;
-}
-.portraits-sm-5{
+    grid-row: 11;
+  }
+  .holiday-sm-2 {
     grid-column: 2/3;
-    grid-row: 3; 
-    align-self: flex-end;
-}
-.portraits-sm-6{
-    grid-column: 3/4;
-    grid-row: 3; 
-    align-self: flex-end;
-}
-
-.swimsuit-sm-1{
+    grid-row: 11;
+  }
+  .holiday-sm-3 {
     grid-column: 1/2;
-    grid-row: 4; 
-}
-.swimsuit-sm-2{
+    grid-row: 12;
+  }
+  .holiday-sm-4 {
     grid-column: 2/3;
-    grid-row: 4; 
+    grid-row: 12;
+  }
 }
-.swimsuit-sm-3{
-    grid-column: 3/4;
-    grid-row: 4; 
-}
-.swimsuit-sm-4{
-    grid-column: 1/2;
-    grid-row: 4; 
-    align-self: flex-end;
-}
-.swimsuit-sm-5{
-    grid-column: 2/3;
-    grid-row: 4; 
-    align-self: flex-end;
-}
-.swimsuit-sm-6{
-    grid-column: 3/4;
-    grid-row: 4; 
-    align-self: flex-end;
-}
-
-.outdoors-sm-1{
-    grid-column: 1/2;
-    grid-row: 5; 
-}
-.outdoors-sm-2{
-    grid-column: 2/3;
-    grid-row: 5; 
-}
-.outdoors-sm-3{
-    grid-column: 3/4;
-    grid-row: 5; 
-}
-.outdoors-sm-4{
-    grid-column: 1/2;
-    grid-row: 5; 
-    align-self: flex-end;
-}
-.outdoors-sm-5{
-    grid-column: 2/3;
-    grid-row: 5; 
-    align-self: flex-end;
-}
-.outdoors-sm-6{
-    grid-column: 3/4;
-    grid-row: 5; 
-    align-self: flex-end;
-}
-
-.graduation-sm-1{
-    grid-column: 1/2;
-    grid-row: 6; 
-}
-.graduation-sm-2{
-    grid-column: 2/3;
-    grid-row: 6; 
-}
-.graduation-sm-3{
-    grid-column: 3/4;
-    grid-row: 6; 
-}
-.graduation-sm-4{
-    grid-column: 1/2;
-    grid-row: 6; 
-    align-self: flex-end;
-}
-.graduation-sm-5{
-    grid-column: 2/3;
-    grid-row: 6; 
-    align-self: flex-end;
-}
-.graduation-sm-6{
-    grid-column: 3/4;
-    grid-row: 6; 
-    align-self: flex-end;
-}
-
-.holiday-sm-1{
-    grid-column: 1/2;
-    grid-row: 7; 
-}
-.holiday-sm-2{
-    grid-column: 2/3;
-    grid-row: 7; 
-}
-.holiday-sm-3{
-    grid-column: 3/4;
-    grid-row: 7; 
-}
-.holiday-sm-4{
-    grid-column: 1/2;
-    grid-row: 7; 
-    align-self: flex-end;
-}
-.holiday-sm-5{
-    grid-column: 2/3;
-    grid-row: 7; 
-    align-self: flex-end;
-}
-.holiday-sm-6{
-    grid-column: 3/4;
-    grid-row: 7; 
-    align-self: flex-end;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* gallery end */
 /*About Page Start*/
-.about-Hero-Container{
-    width: 100%;
-    height: 473px;
-    background-color: black;
-    position: relative;
+.about-Hero-Container {
+  width: 100%;
+  height: 473px;
+  background-color: black;
+  position: relative;
 }
-.about-Hero-Img{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+.about-Hero-Img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
-.nav-about{
-    z-index: 1;
-    height: 153px;
+.nav-about {
+  z-index: 1;
+  height: 153px;
 }
-.nav-text-color{
-    color: chocolate;
-    text-decoration: underline;
+.nav-text-color {
+  color: chocolate;
+  text-decoration: underline;
 }
-#about-hero{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transform: scale(1.2);
-    object-position: 110px 30%;
-    filter: brightness(0.8);
+#about-hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.2);
+  object-position: 110px 30%;
+  filter: brightness(0.8);
 }
-.about-text{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    padding-top: 10%;
-    align-items: center;
-    justify-content: center;
+.about-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding-top: 10%;
+  align-items: center;
+  justify-content: center;
 }
-.about-text h1{
-    font-size: 96px;
-    color: white;
-    padding-top:50px;
+.about-text h1 {
+  font-size: 96px;
+  color: white;
+  padding-top: 50px;
 }
-.jake-description-container{
-    width: 80%;
-    height: auto;
-    margin: auto;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    align-items: center;
-    margin-top: 20px;
+.jake-description-container {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  align-items: center;
+  margin-top: 20px;
 }
-.jake-name-title{
-    grid-column: span 2;
+.jake-name-title {
+  grid-column: span 2;
 }
-.jake-name-title h1{
-    font-size: 55px;
-    margin: 0;
+.jake-name-title h1 {
+  font-size: 55px;
+  margin: 0;
 }
-#shrink-text{
+#shrink-text {
+  font-size: 35px;
+}
+.jake-Owner-Lead-container {
+  width: 100%;
+  height: 100%;
+}
+.jake-Owner-Lead-container p {
+  font-size: 24px;
+  margin-top: 5%;
+}
+.jake-logo img {
+  width: 500px;
+}
+.about-carousel {
+  height: 456px;
+  width: 723px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: black;
+  overflow: hidden;
+}
+.carousel-img-one {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.carousel-text-one {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.466);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  opacity: 0%;
+  transition: 0.6s;
+}
+.carousel-text-one h1 {
+  color: white;
+}
+.carousel-text-one:hover {
+  opacity: 1;
+}
+.carousel-img-two {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.carousel-text-two {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.466);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: 0.6s;
+}
+.carousel-text-two:hover {
+  opacity: 1;
+}
+.carousel-text-two h1 {
+  color: white;
+}
+.carousel-img-three {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.carousel-text-three {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.466);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: 0.6s;
+}
+.carousel-text-three h1 {
+  color: white;
+  font-size: 35px;
+}
+.carousel-text-three:hover {
+  opacity: 1;
+}
+.img-1 {
+  width: 100%;
+  aspect-ratio: 6/4;
+}
+.img-2 {
+  width: 100%;
+  aspect-ratio: 8/5;
+  object-fit: cover;
+}
+.img-3 {
+  width: 100%;
+  aspect-ratio: 8/6;
+  object-fit: cover;
+}
+.vision-description {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(1fr, 1fr);
+}
+.vision-title {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  margin-top: 5%;
+}
+.vision-title h1 {
+  font-size: 55px;
+  margin: 0;
+}
+.vision-text p {
+  margin-top: 2%;
+  font-size: 24px;
+}
+.button-div {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+#book-session-BTN {
+  background-color: chocolate;
+  color: white;
+  width: 240px;
+  height: 58px;
+  font-size: 1.5vw;
+  border-radius: 9px;
+  border: none;
+}
+#book-session-BTN:hover {
+  background-color: rgb(182, 76, 1);
+}
+@media (max-width: 1225px) {
+  #about-hero {
+    object-position: 10% 30%;
+  }
+}
+@media (max-width: 1096px) {
+  #about-hero {
+    object-position: 85px;
+    transform: scale(1.5);
+  }
+  .jake-description-container {
+    width: 90%;
+  }
+  .jake-name-title h1 {
+    font-size: 48px;
+  }
+  .jake-Owner-Lead-container p {
     font-size: 35px;
-}
-.jake-Owner-Lead-container{
-    width: 100%;
-    height: 100%;
-}
-.jake-Owner-Lead-container p{
-    font-size: 24px;
     margin-top: 5%;
-}
-.jake-logo img{
-    width: 500px;
-}
-.about-carousel{
-    height: 456px;
-    width: 723px;
-    margin: auto;
-    margin-top: 50px;
-    background-color: black;
-    overflow: hidden;
-}
-.carousel-img-one{
-    position: relative;
+    margin-bottom: 5%;
+  }
+  .button-div {
     height: 100%;
     width: 100%;
-}
-.carousel-text-one{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.466);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    opacity: 0%;
-    transition: 0.6s;
-}
-.carousel-text-one h1{
-    color: white;
-}
-.carousel-text-one:hover{
-    opacity: 1;
-}
-.carousel-img-two{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-.carousel-text-two{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.466);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    opacity: 0;
-    transition: 0.6s;
-}
-.carousel-text-two:hover{
-    opacity: 1;
-}
-.carousel-text-two h1{
-    color: white;
-}
-.carousel-img-three{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.carousel-text-three{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.466);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    opacity: 0;
-    transition: 0.6s;
-}
-.carousel-text-three h1{
-    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .vision-description {
+    width: 90%;
+  }
+  .vision-text p {
     font-size: 35px;
-}
-.carousel-text-three:hover{
-    opacity: 1;
-}
-.img-1{
-   width: 100%;
-   aspect-ratio: 6/4;  
-}
-.img-2{
-    width: 100%;
-    aspect-ratio: 8/5;
-    object-fit: cover;
-}
-.img-3{
-    width: 100%;
-    aspect-ratio: 8/6;
-    object-fit: cover;
-}
-.vision-description{
-    width: 80%;
-    height: auto;
-    margin: auto;
-    display: grid;
-    grid-template-rows: repeat(1fr,1fr);
-
-}
-.vision-title{
-    display: flex;
-    width: 100%;
-    justify-content: start;
-    margin-top: 5%;
-    
-}
-.vision-title h1{
-    font-size: 55px;
-    margin: 0;
-}
-.vision-text p{
-    margin-top: 2%;
-    font-size: 24px;
-}
-.button-div{
-    margin-top: 3%;
-    margin-bottom: 3%;
-    display: flex;
-    justify-content: center;
-    height: auto;
-}
-#book-session-BTN{
-    background-color: chocolate;
-    color: white;
-    width: 240px;
-    height: 58px;
-    font-size: 1.5vw;
-    border-radius: 9px;
-    border: none;
-}
-#book-session-BTN:hover{
-    background-color: rgb(182, 76, 1);
-}
-@media (max-width:1225px) {
-    #about-hero{
-        object-position: 10% 30%;
-    }
-}
-@media(max-width:1096px)
-{
-    #about-hero{
-        object-position: 85px ;
-        transform: scale(1.5);
-    }
-    .jake-description-container{
-        width: 90%;
-    }
-    .jake-name-title h1{
-        font-size: 48px;
-    }
-    .jake-Owner-Lead-container p{
-        font-size: 35px;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .button-div{
-        height: 100%;
-        width: 100%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-    .vision-description{
-        width: 90%;
-    }
-    .vision-text p{
-        font-size: 35px;
-    }
-    #book-session-BTN{
-        height: 78px;
-        width: 300px;
-        font-size: 2.5vw;   
-    }
+  }
+  #book-session-BTN {
+    height: 78px;
+    width: 300px;
+    font-size: 2.5vw;
+  }
 }
 @media(max-width:992px){
     .jake-logo img{
@@ -1279,157 +1277,303 @@ h1{
         display: none;
     }
 }
-@media(max-width:723px){
-    #about-hero{
-        object-position: 55px;
-        transform: scale(1.2);
-    }
-    .about-text h1{
-        font-size: 75px;
-    }
-    .footer-smaller-text h2, h3, h4{
-        text-align: center;
-        font-size: 50px;
-    }
-    .footer-smaller-BTN{
-        height: 90px;
-    }
-    #address{
-        font-size: 50px;
-    }
-    .footer-smaller-input input{
-        height: 80px;
-    }
-    
-    .footer-smaller-input h4{
-        margin-top: 5%;
-        font-size: 45px;
-    }
-    .about-carousel{
-        width: 90%;
-    }
-    .img-1{
-        width: 100%;
-        height: 100%;
-        aspect-ratio: 5 / 4;
-    }
-    .img-2{
-        width: 100%;
-        aspect-ratio: 7 / 5;
-    }
-    .vision-title h1{
-        font-size:40px;
-    }
-    .jake-name-title{
-        text-align: center;
-    }
+@media (max-width: 723px) {
+  #about-hero {
+    object-position: 55px;
+    transform: scale(1.2);
+  }
+  .about-text h1 {
+    font-size: 75px;
+  }
+  .footer-smaller-text h2,
+  h3,
+  h4 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .footer-smaller-BTN {
+    height: 90px;
+  }
+  #address {
+    font-size: 50px;
+  }
+  .footer-smaller-input input {
+    height: 80px;
+  }
+
+  .footer-smaller-input h4 {
+    margin-top: 5%;
+    font-size: 45px;
+  }
+  .about-carousel {
+    width: 90%;
+  }
+  .img-1 {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 5 / 4;
+  }
+  .img-2 {
+    width: 100%;
+    aspect-ratio: 7 / 5;
+  }
+  .vision-title h1 {
+    font-size: 40px;
+  }
+  .jake-name-title {
+    text-align: center;
+  }
 }
-@media (max-width:647px) {
-    #about-hero{
-        object-position: 35px;
-        transform: scale(1.5);
-    }
-    .img-2{
-        width: 100%;
-        aspect-ratio: 6 / 5;
-    }
-    .img-3{
-        width: 100%;
-        aspect-ratio: 7/6;
-    }
-    .jake-Owner-Lead-container p{
-        font-size: 35px;
-        text-align: center;
-    }
-    .vision-title h1{
-        font-size: 47px;
-        text-align: center;
-    }
-    .vision-title p{
-        font-size: 35px;
-        text-align: center;
-    }
+@media (max-width: 647px) {
+  #about-hero {
+    object-position: 35px;
+    transform: scale(1.5);
+  }
+  .img-2 {
+    width: 100%;
+    aspect-ratio: 6 / 5;
+  }
+  .img-3 {
+    width: 100%;
+    aspect-ratio: 7/6;
+  }
+  .jake-Owner-Lead-container p {
+    font-size: 35px;
+    text-align: center;
+  }
+  .vision-title h1 {
+    font-size: 47px;
+    text-align: center;
+  }
+  .vision-title p {
+    font-size: 35px;
+    text-align: center;
+  }
 }
-@media (max-width:567px) {
-    .jake-name-title h1{
-        text-align: center;
-        font-size: 35px;
-    }
-    .footer-smaller-text h2,h3,h4{
-        font-size: 40px;
-    }
-    #address{
-        font-size: 40px;
-    }
-    #smaller-ig{
-        width: 100px;
-    }
-    .footer-smaller-input input{
-        width: 100%;
-    }
-    .footer-smaller-input p{
-        font-size: 20px;
-    }
-    .img-1{
-        width: 100%;
-        height: 100%;
-        aspect-ratio: 3 / 3;
-    }
-    .img-2{
-        width: 100%;
-        aspect-ratio: 5 / 5;
-    }
-    .img-3{
-        aspect-ratio: 5/5;
-    }
+@media (max-width: 567px) {
+  .jake-name-title h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .footer-smaller-text h2,
+  h3,
+  h4 {
+    font-size: 40px;
+  }
+  #address {
+    font-size: 40px;
+  }
+  #smaller-ig {
+    width: 100px;
+  }
+  .footer-smaller-input input {
+    width: 100%;
+  }
+  .footer-smaller-input p {
+    font-size: 20px;
+  }
+  .img-1 {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3 / 3;
+  }
+  .img-2 {
+    width: 100%;
+    aspect-ratio: 5 / 5;
+  }
+  .img-3 {
+    aspect-ratio: 5/5;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*About page End*/
 /* Contact Page Start-------------------------------------------------------------- */
- .nav-contact{
-    z-index: 1;
-    height: 153px;
- }
+.nav-contact {
+  z-index: 1;
+  height: 153px;
+}
 .contact-Container {
-    width: 100%;
-    height: 473px;
-    position: relative;
-  
-  }
-  .contact-img {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
- }
+  width: 100%;
+  height: 473px;
+  position: relative;
+}
+.contact-img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 
-  .txt-Container{
-    position: absolute;
-
-  }
-  .contact-txt{
-   
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    padding-top: 10%;
-    align-items: center;
-    justify-content: center;
-    color: white;
-   }
-  .vision-txt{
-    padding-left: 60px;
-    padding-top: 60px;
-  }
+.txt-Container {
+  position: absolute;
+}
+.contact-txt {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding-top: 10%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.vision-txt {
+  padding-left: 60px;
+  padding-top: 60px;
+}
 .vision-txt p {
-    padding-left: 10px;
+  padding-left: 10px;
 }
-.email-p{
-    padding-top: 15px;
-    font-size: 15px;
+.email-p {
+  padding-top: 15px;
+  font-size: 15px;
+}
+.enter-txt{
+   margin: 0;
+
+}
+.info-Box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap:20px;
+    padding-top: 50px;
+}
+.contact-Logo{
+    width: 40%
+   
+    padding-top 30%;
+
+   
+}
+
+.enter-box{
+    width: 400px;
+}
+
+.message-Box{
+    width: 950px;
+    height: 150px;
+}
+.message-Container{
+  padding-left: 12.5%;
+}
+.message-Container p{
+margin-bottom: 6px;
+}
+.contact-Button{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: start;
+    height: auto;
+    padding-left: 12.5%;
+}
+#submit-BTN{
+    background-color: chocolate;
+    color: white;
+    width: 240px;
+    height: 58px;
+    font-size: 1.5vw;
+    border-radius: 9px;
+    border: none;
+}
+#submit-BTN:hover{
+    background-color: rgb(182, 76, 1);
+}
+.contact-img2{
+    width: 100%;
+ object-fit: cover;
 }
 
 
 
-  
-  /* Contact Page Ends---------------------------------------------------------- */
+
+
+
+
+/* Contact Page Ends---------------------------------------------------------- */
