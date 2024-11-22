@@ -13,43 +13,99 @@
     <link rel="stylesheet" href="../stylesheet/styles.css" />
   </head>
   <body id="gallery-body">
-    <div class="container-fluid">
+    <nav class="nav-format nav-about">
+      <div>
+        <a href="../index.html"
+          ><img
+            class="logo-img"
+            src="../assests/Logo_for_website_assignment-removebg-preview.png"
+            alt="vision images logo"
+        /></a>
+      </div>
+      <ul class="nav justify-content-evenly nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/about.html"
+            >ABOUT</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-text-color" href="../pages/gallery.html">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/contact.html">CONTACT</a>
+        </li>
+      </ul>
+      <div>
+        <a href="https://www.youtube.com/@visionimages-vipv" target="_blank"
+          ><img
+            class="yt-logo"
+            src="../assests/youtube (1).png"
+            alt="youtube logo"
+        /></a>
+      </div>
+    </nav>
+
+    <nav class="navbar smaller-nav-bg fixed-top">
       <div class="container-fluid">
-        <nav class="nav-format">
-          <a href="/index.html"
-            ><img
-              src="/assests/Logo_for_website_assignment-removebg-preview.png"
-              class="logo-img"
-          /></a>
-          <ul class="nav justify-content-evenly">
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/about.html">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/pages/gallery.html"
-                style="text-decoration: underline"
-                >GALLERY</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/contact.html">CONTACT</a>
-            </li>
-          </ul>
-          <div>
-            <a href="https://www.youtube.com/@visionimages-vipv" target="_blank"
+        <a class="navbar-brand" href="/index.html"
+          ><img
+            id="smaller-nav-logo"
+            src="../assests/Logo_for_website_assignment-removebg-preview.png"
+            alt="company logo"
+        /></a>
+        <button
+          class="navbar-toggler smaller-nav-BTN"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            >X</button>
+          </div>
+          <div class="offcanvas-body offcanvas-list">
+            <ul class="navbar-nav flex-grow-1 pe-3">
+              <li class="nav-item offcanvas-list">
+                <a class="nav-link" href="/pages/about.html">ABOUT</a>
+                <a class="nav-link" href="/pages/gallery.html">GALLERY</a>
+                <a class="nav-link" href="/pages/contact.html">CONTACT</a>
+                <a target="_blank" href="https://www.instagram.com/vision_images_by_jake/"><img
+                class="ig-logo"
+                style="margin: 0px;"
+                id="smaller-ig"
+                src="../assests/instagram (1).png"
+                alt="instagram logo"
+              /></a>
+              <a href="https://www.youtube.com/@visionimages-vipv" target="_blank"
               ><img
                 class="yt-logo"
-                src="/assests/youtube (1).png"
+                style="margin: 0px;"
+                src="../assests/youtube (1).png"
                 alt="youtube logo"
             /></a>
+              </li>
+            </ul>
           </div>
-        </nav>
+        </div>
       </div>
+    </nav>
 
-      <!-- HEADER -->
-
+    <!-- HEADER -->
+    <div class="container-fluid">
       <img
         class="gallery-header"
         src="/assests/Milky1.jpg"
@@ -111,37 +167,37 @@
           id="smallIMGs"
           class="portraits-sm-1"
           src="/assests/portrait/P1.jpg"
-          alt=""
+          alt="business man"
         />
         <img
           id="smallIMGs"
           class="portraits-sm-2"
           src="/assests/portrait/P3.jpg"
-          alt=""
+          alt="lady in red"
         />
         <img
           id="smallIMGs"
           class="portraits-sm-3"
           src="/assests/Vision-Protraits-10-751x910.jpg"
-          alt=""
+          alt="woman"
         />
         <img
           id="smallIMGs"
           class="portraits-sm-4"
           src="/assests/portrait/p10.jpg"
-          alt=""
+          alt="lady with rose"
         />
         <img
           id="smallIMGs"
           class="portraits-sm-5"
           src="/assests/portrait/P6A.jpg"
-          alt=""
+          alt="woman on phone"
         />
         <img
           id="smallIMGs"
           class="portraits-sm-6"
           src="/assests/portrait/P8.jpg"
-          alt=""
+          alt="model"
         />
 
         <img
@@ -158,37 +214,37 @@
           id="smallIMGs"
           class="swimsuit-sm-1"
           src="/assests/swimsuit/SS1.jpg"
-          alt=""
+          alt="biker chick"
         />
         <img
           id="smallIMGs"
           class="swimsuit-sm-2"
           src="/assests/SS4.jpg"
-          alt=""
+          alt="woman in bikini"
         />
         <img
           id="smallIMGs"
           class="swimsuit-sm-3"
           src="/assests/swimsuit/SS2.jpg"
-          alt=""
+          alt="lady in creek"
         />
         <img
           id="smallIMGs"
           class="swimsuit-sm-4"
           src="/assests/swimsuit/SS3.jpg"
-          alt=""
+          alt="lady in pink bikini"
         />
         <img
           id="smallIMGs"
           class="swimsuit-sm-5"
           src="/assests/swimsuit/SS7.jpg"
-          alt=""
+          alt="lady in river"
         />
         <img
           id="smallIMGs"
           class="swimsuit-sm-6"
           src="/assests/swimsuit/SS8.jpg"
-          alt=""
+          alt="lady in river 2"
         />
 
         <img
@@ -205,37 +261,37 @@
           id="smallIMGs"
           class="outdoors-sm-1"
           src="/assests/outdoors/OD1.jpg"
-          alt=""
+          alt="man in black suit"
         />
         <img
           id="smallIMGs"
           class="outdoors-sm-2"
           src="/assests/Vision-Carriage-about.jpg"
-          alt=""
+          alt="bride and groom with carriage"
         />
         <img
           id="smallIMGs"
           class="outdoors-sm-3"
           src="/assests/outdoors/OD2.jpg"
-          alt=""
+          alt="country girl"
         />
         <img
           id="smallIMGs"
           class="outdoors-sm-4"
           src="/assests/outdoors/OD3.jpg"
-          alt=""
+          alt="couple outside"
         />
         <img
           id="smallIMGs"
           class="outdoors-sm-5"
           src="/assests/outdoors/OD5.jpg"
-          alt=""
+          alt="lady on bridge"
         />
         <img
           id="smallIMGs"
           class="outdoors-sm-6"
           src="/assests/outdoors/OD6.jpg"
-          alt=""
+          alt="lady in red"
         />
 
         <img
@@ -251,44 +307,44 @@
           id="smallIMGs"
           class="graduation-sm-1"
           src="/assests/graduation/Grad10.jpg"
-          alt=""
+          alt="2009 graduate"
         />
         <img
           id="smallIMGs"
           class="graduation-sm-2"
           src="/assests/graduation/Grad2.jpg"
-          alt=""
+          alt="2009 graduate 2"
         />
         <img
           id="smallIMGs"
           class="graduation-sm-3"
           src="/assests/graduation/Grad3.jpg"
-          alt=""
+          alt="college graduate in chair"
         />
         <img
           id="smallIMGs"
           class="graduation-sm-4"
           src="/assests/graduation/Grad4.jpg"
-          alt=""
+          alt="college graduate in sunset"
         />
         <img
           id="smallIMGs"
           class="graduation-sm-5"
           src="/assests/graduation/Grad5.jpg"
-          alt=""
+          alt="lady college graduate in sunset"
         />
         <img
           id="smallIMGs"
           class="graduation-sm-6"
           src="/assests/graduation/Grad6.jpg"
-          alt=""
+          alt="kindergarten class"
         />
 
         <img
           id="lrgIMGs"
           class="gallery-graduation"
           src="/assests/Grad1.jpg"
-          alt="groomsmen"
+          alt="college graduate"
         />
         <h1 class="gallery-graduation-text">GRADUATION</h1>
 
@@ -297,37 +353,37 @@
           id="smallIMGs"
           class="holiday-sm-1"
           src="/assests/holiday/HS4.jpg"
-          alt=""
+          alt="family in holiday setting"
         />
         <img
           id="smallIMGs"
           class="holiday-sm-2"
           src="/assests/holiday/HS11.jpg"
-          alt=""
+          alt="lady by christmas tree"
         />
         <img
           id="smallIMGs"
           class="holiday-sm-3"
           src="/assests/holiday/HS3.jpg"
-          alt=""
+          alt="couple in holiday setting"
         />
         <img
           id="smallIMGs"
           class="holiday-sm-4"
           src="/assests/holiday/HS1.jpg"
-          alt=""
+          alt="family of 3 in the holidays"
         />
         <img
           id="smallIMGs"
           class="holiday-sm-5"
           src="/assests/holiday/HS5.jpg"
-          alt=""
+          alt="family in winter wonderland"
         />
         <img
           id="smallIMGs"
           class="holiday-sm-6"
           src="/assests/holiday/HS9.jpg"
-          alt=""
+          alt="lady in bikini with holiday theme"
         />
 
         <img
@@ -359,13 +415,13 @@
         <img
           id="smallIMGs"
           class="bridal-sm-3"
-          src="/assests/background 4.jpg"
+          src="/assests/BridalParty4.jpg"
           alt="bridal party in blue"
         />
         <img
           id="smallIMGs"
           class="bridal-sm-4"
-          src="/assests/BridalParty4.jpg"
+          src="/assests/background 4.jpg"
           alt="wedding party in purple"
         />
         <img
@@ -380,25 +436,25 @@
           id="smallIMGs"
           class="portraits-sm-1"
           src="/assests/portrait/P1.jpg"
-          alt=""
+          alt="business man"
         />
         <img
           id="smallIMGs"
           class="portraits-sm-2"
           src="/assests/portrait/P3.jpg"
-          alt=""
+          alt="lady in red"
         />
         <img
           id="smallIMGs"
           class="portraits-sm-3"
           src="/assests/Vision-Protraits-10-751x910.jpg"
-          alt=""
+          alt="woman"
         />
         <img
           id="smallIMGs"
           class="portraits-sm-4"
           src="/assests/portrait/p10.jpg"
-          alt=""
+          alt="lady with rose"
         />
         <img
           id="lrgIMGs"
@@ -414,144 +470,144 @@
           id="smallIMGs"
           class="swimsuit-sm-1"
           src="/assests/swimsuit/SS1.jpg"
-          alt=""
+          alt="biker chick"
         />
         <img
           id="smallIMGs"
           class="swimsuit-sm-2"
           src="/assests/SS4.jpg"
-          alt=""
+          alt="woman in bikini"
         />
         <img
           id="smallIMGs"
           class="swimsuit-sm-3"
-          src="/assests/swimsuit/SS2.jpg"
-          alt=""
+          src="/assests/swimsuit/SS3.jpg"
+          alt="lady in pink bikini"
         />
         <img
           id="smallIMGs"
           class="swimsuit-sm-4"
-          src="/assests/swimsuit/SS3.jpg"
-          alt=""
+          src="/assests/swimsuit/SS2.jpg"
+          alt="woman in creek"
         />
-<img
+        <img
           id="lrgIMGs"
           class="gallery-swimsuit"
           src="/assests/swimsuit/SS6.jpg"
           alt="swimsuit model"
         />
 
-        <h1 class="gallery-swimsuit-text">SWIMSUIT</h1> -->
+        <h1 class="gallery-swimsuit-text">SWIMSUIT</h1>
         <!-- OUTDOORS -->
         <img
-        id="smallIMGs"
-        class="outdoors-sm-1"
-        src="/assests/outdoors/OD1.jpg"
-        alt=""
-      />
-      <img
-        id="smallIMGs"
-        class="outdoors-sm-2"
-        src="/assests/Vision-Carriage-about.jpg"
-        alt=""
-      />
-      <img
-        id="smallIMGs"
-        class="outdoors-sm-3"
-        src="/assests/outdoors/OD2.jpg"
-        alt=""
-      />
-      <img
-        id="smallIMGs"
-        class="outdoors-sm-4"
-        src="/assests/outdoors/OD3.jpg"
-        alt=""
-      />
-<img
-        id="lrgIMGs"
-        class="gallery-outdoors"
-        src="/assests/OD7A.jpg"
-        alt="barn woman"
-      />
-      <h1 class="gallery-outdoors-text">OUTDOORS</h1>
+          id="smallIMGs"
+          class="outdoors-sm-1"
+          src="/assests/outdoors/OD1.jpg"
+          alt="man in black suit"
+        />
+        <img
+          id="smallIMGs"
+          class="outdoors-sm-2"
+          src="/assests/Vision-Carriage-about.jpg"
+          alt="wedding couple with carriage"
+        />
+        <img
+          id="smallIMGs"
+          class="outdoors-sm-3"
+          src="/assests/outdoors/OD3.jpg"
+          alt="couple outside"
+        />
+        <img
+          id="smallIMGs"
+          class="outdoors-sm-4"
+          src="/assests/outdoors/OD2.jpg"
+          alt="country woman"
+        />
+        <img
+          id="lrgIMGs"
+          class="gallery-outdoors"
+          src="/assests/OD7A.jpg"
+          alt="barn woman"
+        />
+        <h1 class="gallery-outdoors-text">OUTDOORS</h1>
         <!-- GRADUATION -->
         <img
-      id="smallIMGs"
-      class="graduation-sm-1"
-      src="/assests/graduation/Grad10.jpg"
-      alt=""
-    />
-    <img
-      id="smallIMGs"
-      class="graduation-sm-2"
-      src="/assests/graduation/Grad2.jpg"
-      alt=""
-    />
-    <img
-      id="smallIMGs"
-      class="graduation-sm-3"
-      src="/assests/graduation/Grad3.jpg"
-      alt=""
-    />
-    <img
-      id="smallIMGs"
-      class="graduation-sm-4"
-      src="/assests/graduation/Grad4.jpg"
-      alt=""
-    />
-    <img
-    id="lrgIMGs"
-    class="gallery-graduation"
-    src="/assests/Grad1.jpg"
-    alt="groomsmen"
-  />
-  <h1 class="gallery-graduation-text">GRADUATION</h1>
+          id="smallIMGs"
+          class="graduation-sm-1"
+          src="/assests/graduation/Grad10.jpg"
+          alt="2009 graduate"
+        />
+        <img
+          id="smallIMGs"
+          class="graduation-sm-2"
+          src="/assests/graduation/Grad2.jpg"
+          alt="2009 graduate 2"
+        />
+        <img
+          id="smallIMGs"
+          class="graduation-sm-3"
+          src="/assests/graduation/Grad4.jpg"
+          alt="graduate in sunset"
+        />
+        <img
+          id="smallIMGs"
+          class="graduation-sm-4"
+          src="/assests/graduation/Grad3.jpg"
+          alt="graduate in chair"
+        />
+        <img
+          id="lrgIMGs"
+          class="gallery-graduation"
+          src="/assests/Grad1.jpg"
+          alt="groomsmen"
+        />
+        <h1 class="gallery-graduation-text">GRADUATION</h1>
         <!-- HOLIDAY -->
         <img
-    id="smallIMGs"
-    class="holiday-sm-1"
-    src="/assests/holiday/HS4.jpg"
-    alt=""
-  />
-  <img
-    id="smallIMGs"
-    class="holiday-sm-2"
-    src="/assests/holiday/HS11.jpg"
-    alt=""
-  />
-  <img
-    id="smallIMGs"
-    class="holiday-sm-3"
-    src="/assests/holiday/HS3.jpg"
-    alt=""
-  />
-  <img
-    id="smallIMGs"
-    class="holiday-sm-4"
-    src="/assests/holiday/HS1.jpg"
-    alt=""
-  />
-  <img
-  id="lrgIMGs"
-  class="gallery-holiday"
-  src="/assests/HS2.jpg"
-  alt="holiday couple photo"
-  />
-  
-  <h1 class="gallery-holiday-text">HOLIDAY</h1>
-</div>
+          id="smallIMGs"
+          class="holiday-sm-1"
+          src="/assests/holiday/HS4.jpg"
+          alt="family in holiday setting"
+        />
+        <img
+          id="smallIMGs"
+          class="holiday-sm-2"
+          src="/assests/holiday/HS11.jpg"
+          alt="lady by christmas tree"
+        />
+        <img
+          id="smallIMGs"
+          class="holiday-sm-3"
+          src="/assests/holiday/HS1.jpg"
+          alt="family in holiday setting 2"
+        />
+        <img
+          id="smallIMGs"
+          class="holiday-sm-4"
+          src="/assests/holiday/HS3.jpg"
+          alt="couple in holiday setting"
+        />
+        <img
+          id="lrgIMGs"
+          class="gallery-holiday"
+          src="/assests/HS2.jpg"
+          alt="holiday couple photo"
+        />
 
-<div class="mobile-titles">
-<h1 class="gallery-bridal-text-mobile d-md-none">BRIDAL</h1>
-<h1 class="gallery-portraits-text-mobile d-md-none">PORTRAITS</h1>
-<h1 class="gallery-swimsuit-text-mobile d-md-none">SWIMSUIT</h1>
-<h1 class="gallery-outdoors-text-mobile d-md-none">OUTDOORS</h1>
-<h1 class="gallery-graduation-text-mobile d-md-none">GRADUATION</h1>
-<h1 class="gallery-holiday-text-mobile d-md-none">HOLIDAY</h1>
-</div>
+        <h1 class="gallery-holiday-text">HOLIDAY</h1>
+      </div>
+
+      <div class="mobile-titles">
+        <h1 class="gallery-bridal-text-mobile d-md-none">BRIDAL</h1>
+        <h1 class="gallery-portraits-text-mobile d-md-none">PORTRAITS</h1>
+        <h1 class="gallery-swimsuit-text-mobile d-md-none">SWIMSUIT</h1>
+        <h1 class="gallery-outdoors-text-mobile d-md-none">OUTDOORS</h1>
+        <h1 class="gallery-graduation-text-mobile d-md-none">GRADUATION</h1>
+        <h1 class="gallery-holiday-text-mobile d-md-none">HOLIDAY</h1>
+      </div>
 
       <!-- FOOTER -->
-      <footer>
+      <footer class="footer-container">
         <div class="container-fluid">
           <div class="row">
             <div class="col-6 text-white">
@@ -559,20 +615,25 @@
               <h3>209-451-3924</h3>
               <h4 style="text-decoration: underline">jakejacobs@vipv.pro</h4>
               <h4>5052 West Ln, Suite 4G, Stockton, CA 95210</h4>
-              <img
-                class="ig-logo"
-                src="/assests/instagram (1).png"
-                alt="instagram logo"
-              />
+              <a
+                href="https://www.instagram.com/vision_images_by_jake/"
+                target="_blank"
+              >
+                <img
+                  class="ig-logo"
+                  src="../assests/instagram (1).png"
+                  alt="instagram logo"
+                />
+              </a>
             </div>
             <div class="col-6">
-              <div class="row">
+              <div class="row footer-text-one">
                 <h4 class="text-white">
                   Enter your email to stay up to date on bookings and new
                   specials!
                 </h4>
               </div>
-              <div class="row">
+              <div class="row input-container">
                 <div class="col-7">
                   <div class="input-group">
                     <div class="form-floating">
@@ -597,7 +658,7 @@
                     "
                     class="btn btn-outline-light"
                   >
-                    <h4 class="m-0"></h4>
+                    <h4 class="m-0">SUBSCRIBE</h4>
                   </button>
                 </div>
               </div>
@@ -607,6 +668,46 @@
             <p class="text-center text-white">
               Copyright 2021 Vision Images. All Rights Reserved.
             </p>
+          </div>
+        </div>
+      </footer>
+      <footer class="smaller-footer">
+        <div class="container-fluid d-flex justify-content-center">
+          <div class="footer-smaller-text text-white h-100 w-100">
+            <h2>Jake Jacobs</h2>
+            <h3>209-451-3924</h3>
+            <h4 style="text-decoration: underline">jakejacobs@vipv.pro</h4>
+            <h4 id="address">5052 West Ln, Suite 4G, Stockton, CA 95210</h4>
+            <a
+              href="https://www.instagram.com/vision_images_by_jake/"
+              target="_blank"
+            >
+              <img
+                class="ig-logo"
+                id="smaller-ig"
+                src="../assests/instagram (1).png"
+                alt="instagram logo"
+              />
+            </a>
+            <div class="footer-smaller-input">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingInputGroup1"
+                placeholder="Email Address"
+              />
+
+              <button
+                type="button"
+                style="background-color: chocolate; border: none; width: 100%"
+                class="btn btn-outline-light footer-smaller-BTN"
+              >
+                <h4 class="m-0">SUBSCRIBE</h4>
+              </button>
+              <p class="text-center text-white copywrite-text">
+                Copyright 2021 Vision Images. All Rights Reserved.
+              </p>
+            </div>
           </div>
         </div>
       </footer>
