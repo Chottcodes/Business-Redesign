@@ -999,6 +999,391 @@ h1{
     }
 }
 /*About page End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Contact Page Start-------------------------------------------------------------- */
  .nav-contact{
     z-index: 1;
@@ -1053,9 +1438,10 @@ h1{
     width: 100%;
     gap:20px;
     padding-top: 50px;
+    flex-wrap: wrap;
 }
 .contact-Logo{
-    width: 40%
+    width: 30%
    
     padding-top 30%;
 
@@ -1064,10 +1450,11 @@ h1{
 
 .enter-box{
     width: 400px;
+    /* width: 200%; */
 }
 
 .message-Box{
-    width: 950px;
+    width: 70%;
     height: 150px;
 }
 .message-Container{
@@ -1100,6 +1487,63 @@ margin-bottom: 6px;
     width: 100%;
  object-fit: cover;
 }
+
+
+
+@media (max-width: 768px){
+    .info-Box{
+        justify-content: center;
+        padding-left: 90px;
+        width: 60%;
+    }
+    #submit-BTN{
+        font-size: 30px;
+    }
+    #about-Herp{
+        object-fit: cover;
+    }
+    .contact-Logo{
+       width: 350px;
+    }
+    .nav-contact{
+        display: none;
+    }
+    .nav-Mobile{
+        /* position: static !important; */
+        position: absolute;
+        top: 0;
+        width: 100%;
+        
+    }
+    
+}
+@media (max-width: 636px){
+   .enter-txt{
+        font-size: 15px;
+        text-align: center;
+    }
+    .vision-txt{
+        text-align: center;
+        font-size: 30px;
+        padding: 0;
+        margin-top: 30px;
+    }
+    #submit-BTN{
+        font-size: 30px;
+    }
+    .contact-Logo{
+        display: none;
+    }
+    .info-Box{
+        justify-content: center;
+        /* padding-left: 90px; */
+        /* width: 60%; */
+        padding: 0;
+    }
+
+}
+
+
 
 
   
