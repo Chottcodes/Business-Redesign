@@ -135,7 +135,8 @@ h1{
   }
 
   #index-coverimgs{
-    height: 950px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
   }
   /* footer */
@@ -442,112 +443,408 @@ h1{
     align-self: flex-end;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* gallery end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*About Page Start*/
 .about-Hero-Container{
     width: 100%;
@@ -885,12 +1182,100 @@ h1{
         background-color: rgba(210, 105, 30, 0.715);
         margin-right: 50px;
     }
+    .index-pg-smaller-nav{
+        height: 150px;
+    }
+    .index-format{
+        display: none;
+    }
+    .smaller-index-body{
+        width: 100%;
+        height: 2070px;
+        display: grid;
+        grid-template-rows:1fr 1fr;
+    }
+    .smaller-index-img-one{
+        height: 100%;
+        width: 100%;
+    }
+    .smaller-index-img-one img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .smaller-index-img-one{
+        height: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .smaller-index-img-two{
+        position: relative;
+        overflow: hidden;
+    }
+    .smaller-index-img-two-car-container{
+        height: 100%;
+        width: 100%;
+    }
+    .smaller-car-inner{
+        width: 100%;
+        height: 100%;
+    }
+    .smaller-car-one{
+        width: 100%;
+        height: 100%;
+    }
+    .smaller-gall-txt-container{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.591);
+        top: 0;
+        z-index: 1;
+    }
+    .smaller-gall-txt-container h1{
+        color: white;
+        font-size: 80px;
+    }
+    .smaller-car-2-txt{
+        background-color: rgba(0, 0, 0, 0.591);
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        display: grid;
+        align-items: end;
+        height: 100%;
+        width: 100%;
+    }
+    .car-2-title{
+        font-size: 10vw;
+        text-align: center;
+        color: white;
+        
+        
+    }
+    .car-2-long-txt{
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        height: 100%;
+
+    }
+    .car-2-long-txt h3{
+        font-size: 6vw;
+    }
 }
 @media (min-width:993px){
     .smaller-footer{
         display: none;
     }
     .smaller-nav-bg{
+        display: none;
+    }
+    .smaller-index-body{
         display: none;
     }
 }
