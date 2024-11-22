@@ -193,11 +193,34 @@ flex-direction: column;
       width: 70px;
   }
   
-/* index page end */
 
-/* index responsiveness start*/
 
-/* end index responsiveness */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* index page end */
 
 /* GALLERY */
 .gallery-grid{
@@ -783,6 +806,7 @@ flex-direction: column;
     top: calc(50% - 200px);
     left: calc(0%);
     margin: 1rem;
+    margin: 1rem;
   }
 
   .bridal-sm-1 {
@@ -1237,185 +1261,28 @@ flex-direction: column;
         font-size: 2.5vw;   
     }
 }
-@media (max-width: 992px) {
-  .jake-logo img {
-    display: none;
-  }
-  #about-hero {
-    object-position: 85px;
-    transform: scale(1.5);
-    filter: brightness(0.8);
-  }
-  .carousel-text-one {
-    opacity: 1;
-  }
-  .carousel-text-two {
-    opacity: 1;
-  }
-  .carousel-text-three {
-    opacity: 1;
-  }
-  .about-carousel {
-    margin-top: 0px;
-  }
-  .smaller-footer {
-    height: 100%;
-  }
-  .footer-container {
-    display: none;
-  }
-  .footer-smaller-text h2,
-  h3,
-  h4 {
-    text-align: center;
-    font-size: 65px;
-  }
-  #address {
-    font-size: 60px;
-  }
-  #smaller-ig {
-    width: 150px;
-    margin-top: 40px;
-    margin-bottom: 10%;
-    margin-left: 42%;
-  }
-  .footer-smaller-input {
-    margin-top: 10%;
-    margin: auto;
-    width: 50%;
-    height: 100%;
-  }
-  .footer-smaller-input input {
-    height: 100px;
-    font-size: 40px;
-  }
-  .footer-smaller-input button {
-    margin-top: 5%;
-  }
-  .copywrite-text {
-    padding-top: 30px;
-    font-size: 30px;
-  }
-  .vision-title h1 {
-    font-size: 45px;
-  }
-  .jake-name-title h1 {
-    font-size: 47px;
-  }
-  .nav-about {
-    display: none;
-  }
-  @media (min-width: 993) {
-    .smaller-footer {
-      display: none;
-    }
-  }
-  #book-session-BTN {
-    height: 120px;
-    width: 400px;
-    font-size: 4.5vw;
-  }
-  .vision-title {
-    justify-content: center;
-  }
-  #smaller-nav-logo {
-    width: 250px;
-    margin-left: 30px;
-  }
-  .smaller-nav-bg {
-    background-color: rgba(0, 0, 0, 0.378);
-  }
-  .smaller-nav-BTN {
-    background-color: rgba(210, 105, 30, 0.715);
-    margin-right: 50px;
-  }
-  .index-pg-smaller-nav {
-    height: 150px;
-  }
-  .index-format {
-    display: none;
-  }
-  .smaller-index-body {
-    width: 100%;
-    height: 2070px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
-  .smaller-index-img-one {
-    height: 100%;
-    width: 100%;
-  }
-  .smaller-index-img-one img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .smaller-index-img-one {
-    height: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-  }
-  .smaller-index-img-two {
-    position: relative;
-    overflow: hidden;
-  }
-  .smaller-index-img-two-car-container {
-    height: 100%;
-    width: 100%;
-  }
-  .smaller-car-inner {
-    width: 100%;
-    height: 100%;
-  }
-  .smaller-car-one {
-    width: 100%;
-    height: 100%;
-  }
-  .smaller-gall-txt-container {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.591);
-    top: 0;
-    z-index: 1;
-  }
-  .smaller-gall-txt-container h1 {
-    color: white;
-    font-size: 80px;
-  }
-  .smaller-car-2-txt {
-    background-color: rgba(0, 0, 0, 0.591);
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    display: grid;
-    align-items: end;
-    height: 100%;
-    width: 100%;
-  }
-  .car-2-title {
-    font-size: 10vw;
-    text-align: center;
-    color: white;
-  }
-  .car-2-long-txt {
-    text-align: center;
-    vertical-align: middle;
-    color: white;
-    height: 100%;
-  }
-  .car-2-long-txt h3 {
-    font-size: 6vw;
-  }
-}
 @media(max-width:992px){
     .jake-logo img{
         display: none;
     }
+    .index-grid{
+        height: 1000px;
+    }
+     .landing-grid{
+        width: 100%;
+        height: 100%;
+    }
+
+    .index-hero{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .landing-logo{
+        width: 40%;
+        height: 20%;
+    }
+   
     #about-hero{
         object-position: 85px ;
         transform: scale(1.5);
@@ -1502,6 +1369,162 @@ flex-direction: column;
         background-color: rgba(210, 105, 30, 0.715);
         margin-right: 50px;
     }
+    .index-pg-smaller-nav{
+        height: 150px;
+    }
+    .index-format{
+        display: none;
+    }
+    .smaller-index-body{
+        width: 100%;
+        height: 2070px;
+        display: grid;
+        grid-template-rows:1fr 1fr;
+    }
+    .smaller-index-img-one{
+        height: 100%;
+        width: 100%;
+    }
+    .smaller-index-img-one img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .smaller-index-img-one{
+        height: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .smaller-index-img-two{
+        position: relative;
+        overflow: hidden;
+    }
+    .smaller-index-img-two-car-container{
+        height: 100%;
+        width: 100%;
+    }
+    .smaller-car-inner{
+        width: 100%;
+        height: 100%;
+    }
+    .smaller-car-one{
+        width: 100%;
+        height: 100%;
+    }
+    .smaller-gall-txt-container{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.591);
+        top: 0;
+        z-index: 1;
+    }
+    .smaller-gall-txt-container h1{
+        color: white;
+        font-size: 80px;
+    }
+    .smaller-car-2-txt{
+        background-color: rgba(0, 0, 0, 0.591);
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        display: grid;
+        align-items: end;
+        height: 100%;
+        width: 100%;
+    }
+    .car-2-title{
+        font-size: 10vw;
+        text-align: center;
+        color: white;
+        
+        
+    }
+    .car-2-long-txt{
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        height: 100%;
+
+    }
+    .car-2-long-txt h3{
+        font-size: 6vw;
+    }
+}
+@media (min-width:993px){
+    .smaller-footer{
+        height: 100%;
+    }
+    .footer-container{
+       display: none;
+    }
+    .footer-smaller-text h2, h3, h4{
+        text-align: center;
+        font-size: 65px;
+    }
+    #address{
+        font-size: 60px;
+    }
+    #smaller-ig{
+        width: 150px;
+        margin-top: 40px;
+        margin-bottom: 10%;
+        margin-left: 42%;
+    }
+    .footer-smaller-input{
+        margin-top: 10%;
+        margin: auto;
+        width: 50%;
+        height: 100%;
+    }
+    .footer-smaller-input input{
+        height: 100px;
+        font-size: 40px;
+    }
+    .footer-smaller-input button{
+        margin-top: 5%;
+    }
+    .copywrite-text{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .vision-title h1{
+        font-size:45px;
+    }
+    .jake-name-title h1{
+        font-size: 47px;
+    }
+    .nav-about{
+        display: none;
+    }
+    @media (min-width:993){
+        .smaller-footer{
+            display: none;
+        }
+    }
+    #book-session-BTN{
+        height: 120px;
+        width: 400px;
+        font-size: 4.5vw;   
+    }
+    .vision-title{
+        justify-content: center;
+    }
+    #smaller-nav-logo{
+        width: 250px;
+        margin-left: 30px;
+    }
+    .smaller-nav-bg{
+        background-color: rgba(0, 0, 0, 0.378);
+    }
+    .smaller-nav-BTN{
+        background-color: rgba(210, 105, 30, 0.715);
+        margin-right: 50px;
+    }
 }
 @media (min-width: 993px) {
   .smaller-footer {
@@ -1515,6 +1538,10 @@ flex-direction: column;
   }
 }
 @media (max-width: 723px) {
+    .landing-logo{
+        width: 35%;
+        height: 20%;
+    }
   #about-hero {
     object-position: 55px;
     transform: scale(1.2);
@@ -1640,425 +1667,46 @@ flex-direction: column;
         text-align: center;
     }
 }
-@media (max-width:567px) {
-    .jake-name-title h1{
-        text-align: center;
-        font-size: 35px;
+@media (max-width: 567px) {
+    .landing-logo{
+        width: 45%;
+        height: 20%;
     }
-    .footer-smaller-text h2,h3,h4{
-        font-size: 40px;
-    }
-    #address{
-        font-size: 40px;
-    }
-    #smaller-ig{
-        width: 100px;
-    }
-    .footer-smaller-input input{
-        width: 100%;
-    }
-    .footer-smaller-input p{
-        font-size: 20px;
-    }
-    .img-1{
-        width: 100%;
-        height: 100%;
-        aspect-ratio: 3 / 3;
-    }
-    .img-2{
-        width: 100%;
-        aspect-ratio: 5 / 5;
-    }
-    .img-3{
-        aspect-ratio: 5/5;
-    }
+  .jake-name-title h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .footer-smaller-text h2,
+  h3,
+  h4 {
+    font-size: 40px;
+  }
+  #address {
+    font-size: 40px;
+  }
+  #smaller-ig {
+    width: 100px;
+  }
+  .footer-smaller-input input {
+    width: 100%;
+  }
+  .footer-smaller-input p {
+    font-size: 20px;
+  }
+  .img-1 {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3 / 3;
+  }
+  .img-2 {
+    width: 100%;
+    aspect-ratio: 5 / 5;
+  }
+  .img-3 {
+    aspect-ratio: 5/5;
+  }
 }
 /*About page End*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Contact Page Start-------------------------------------------------------------- */
  .nav-contact{
     z-index: 1;
