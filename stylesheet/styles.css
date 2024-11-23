@@ -1385,6 +1385,11 @@ h1{
 
 
 /* Contact Page Start-------------------------------------------------------------- */
+
+#contact-hero{
+width: 100%;
+object-fit: cover;
+}
  .nav-contact{
     z-index: 1;
     height: 153px;
@@ -1393,7 +1398,7 @@ h1{
     width: 100%;
     height: 473px;
     position: relative;
-  
+
   }
   .contact-img {
     width: 100%;
@@ -1403,11 +1408,9 @@ h1{
 
   .txt-Container{
     position: absolute;
-
-  }
+}
   .contact-txt{
-   
-    width: 100%;
+   width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -1416,10 +1419,32 @@ h1{
     align-items: center;
     justify-content: center;
     color: white;
+   
+    
    }
+
+
+   .hero-grid{
+    display: grid;
+    place-items: center;
+}
+.h-txt{
+    text-align: center;
+    color: white;
+    grid-column: 1;
+    grid-row: 1;
+
+}
+.grid-img{
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    aspect-ratio: 16/6;
+    object-fit: cover;
+}
   .vision-txt{
     padding-left: 60px;
-    padding-top: 60px;
+    padding-top: 100px;
   }
 .vision-txt p {
     padding-left: 10px;
@@ -1442,7 +1467,6 @@ h1{
 }
 .contact-Logo{
     width: 30%
-   
     padding-top 30%;
 
    
@@ -1450,7 +1474,6 @@ h1{
 
 .enter-box{
     width: 400px;
-    /* width: 200%; */
 }
 
 .message-Box{
@@ -1489,8 +1512,29 @@ margin-bottom: 6px;
 }
 
 
+@media(max-width:1096px){
+    #contact-hero{
+        transform: scale(1);
+        object-fit: cover;
+        object-position: 0%;
+    }
+   }
 
-@media (max-width: 768px){
+@media(max-width:875px){
+    #contact-hero{
+        transform: scale(1);
+        object-fit: cover;
+        object-position: 0px;
+    }
+}
+@media(min-width:769px){
+    .nav-Mobile{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 769px){
     .info-Box{
         justify-content: center;
         padding-left: 90px;
@@ -1509,14 +1553,26 @@ margin-bottom: 6px;
         display: none;
     }
     .nav-Mobile{
-        /* position: static !important; */
+        
         position: absolute;
         top: 0;
         width: 100%;
         
     }
-    
+    .contact-txt h1{
+        bottom:400px;
+    }
 }
+   
+ @media(max-width:665px){
+     #contact-hero{
+          transform: scale(1);
+        object-fit: cover;
+        object-position: 0px;
+        }
+    }
+    
+
 @media (max-width: 636px){
    .enter-txt{
         font-size: 15px;
@@ -1536,12 +1592,32 @@ margin-bottom: 6px;
     }
     .info-Box{
         justify-content: center;
-        /* padding-left: 90px; */
-        /* width: 60%; */
         padding: 0;
+    }
+    .info-Container{
+        padding-left: 70%;
+    }
+    .message-Container{
+        padding-left: 30%;
+    }
+    .message-Container p{
+        padding-left: 10%;
+    }
+    .contact-Button{
+        padding-left: 26%;
+    }
+    .footer-smaller-input h4{
+        font-size: 10px;
     }
 
 }
+@media(max-width:447px){
+    #contact-hero{
+         transform: scale(1);
+       object-fit: cover;
+       object-position: 0px;
+       }
+   }
 
 
 
