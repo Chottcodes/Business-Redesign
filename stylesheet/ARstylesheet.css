@@ -884,13 +884,40 @@
     .smaller-nav-bg{
         display: block;
     }
+
+    .nav-format{
+        display: none;
+    }
+
+    .footer-container{
+        display: none;
+
+    }
+    .footer-smaller-text{
+        display: flex;
+        flex-direction: column;
+        
+        text-align: center;
+    }
+
+    
   }
 
-  @media (min-width: 993px) {
+  
+  @media screen and (min-width: 993px) {
     .smaller-footer {
       display: none;
     }
+}
 
+.index-hero{
+    margin-bottom: 0px;
+}
+
+.smaller-footer{
+    padding-top: 1rem;
+}
+  
   #book-session-BTN {
     height: 120px;
     width: 400px;
@@ -913,10 +940,12 @@
   .index-pg-smaller-nav {
     height: 150px;
   }
-  .index-format {
-    display: none;
-  }
 
+  @media screen and (max-width: 992px) {
+    .index-format{
+        display: none;
+    }
+  }
   .smaller-index-body {
     width: 100%;
     height: 2070px;
@@ -993,7 +1022,7 @@
   .car-2-long-txt h3 {
     font-size: 6vw;
   }
-}
+
 
 @media (min-width: 993px) {
     .smaller-footer {

@@ -38,43 +38,38 @@
         </div>
       </nav>
       <!--smaller Nav-->
-      <nav id="home-nav" class="navbar smaller-nav-bg index-pg-smaller-nav fixed-top ">
+      <nav id="home-nav" style="padding: 2rem;" class="navbar smaller-nav-bg index-pg-smaller-nav fixed-top ">
         <div class="container-fluid justify-content-end">
           
-          <button class="navbar-toggler index-pg-smaller-btn smaller-nav-BTN" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <button class="navbar-toggler smaller-nav-BTN" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+            <div class="offcanvas-body offcanvas-list">
+              <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item offcanvas-list">
+                  <a class="nav-link" href="/pages/about.html">ABOUT</a>
+                  <a class="nav-link" href="/pages/gallery.html">GALLERY</a>
+                  <a class="nav-link" href="/pages/contact.html">CONTACT</a>
+                  <a target="_blank" href="https://www.instagram.com/vision_images_by_jake/"><img
+                  class="ig-logo"
+                  style="margin: 0px;"
+                  id="smaller-ig"
+                  src="../assests/instagram (1).png"
+                  alt="instagram logo"
+                /></a>
+                <a href="https://www.youtube.com/@visionimages-vipv" target="_blank"
+                ><img
+                  class="yt-logo"
+                  style="margin: 0px;"
+                  src="../assests/youtube (1).png"
+                  alt="youtube logo"
+              /></a>
                 </li>
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
             </div>
           </div>
         </div>
@@ -247,20 +242,25 @@
               <h3>209-451-3924</h3>
               <h4 style="text-decoration: underline">jakejacobs@vipv.pro</h4>
               <h4>5052 West Ln, Suite 4G, Stockton, CA 95210</h4>
-              <img
-                class="ig-logo"
-                src="./assests/instagram (1).png"
-                alt="instagram logo"
-              />
+              <a
+                href="https://www.instagram.com/vision_images_by_jake/"
+                target="_blank"
+              >
+                <img
+                  class="ig-logo"
+                  src="../assests/instagram (1).png"
+                  alt="instagram logo"
+                />
+              </a>
             </div>
             <div class="col-6">
-              <div class="row">
+              <div class="row footer-text-one">
                 <h4 class="text-white">
                   Enter your email to stay up to date on bookings and new
                   specials!
                 </h4>
               </div>
-              <div class="row">
+              <div class="row input-container">
                 <div class="col-7">
                   <div class="input-group">
                     <div class="form-floating">
@@ -298,7 +298,6 @@
           </div>
         </div>
       </footer>
-
       <footer class="smaller-footer">
         <div class="container-fluid d-flex justify-content-center ">
           <div class="footer-smaller-text text-white h-100 w-100">

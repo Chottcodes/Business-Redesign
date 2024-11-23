@@ -1411,6 +1411,7 @@ flex-direction: column;
   .car-2-long-txt h3 {
     font-size: 6vw;
   }
+}
 @media(max-width:992px){
     .jake-logo img{
         display: none;
@@ -1559,6 +1560,7 @@ flex-direction: column;
   .jake-name-title {
     text-align: center;
   }
+}
 @media (min-width:993px){
     .smaller-footer{
         display: none;
@@ -1725,12 +1727,6 @@ flex-direction: column;
   width: 100%;
   gap: 20px;
   padding-top: 50px;
-.info-Box{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap:20px;
-    padding-top: 50px;
 }
 .contact-Logo{
     width: 40%
@@ -1738,6 +1734,9 @@ flex-direction: column;
     padding-top 30%;
 
    
+}
+.form-control{
+    justify-content: center;
 }
 
 .enter-box{
