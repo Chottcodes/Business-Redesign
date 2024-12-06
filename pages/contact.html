@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,6 +9,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <link rel="stylesheet" href="../stylesheet/styles.css">
 </head>
+
 <body>
   <header>
     <!-- Navbar------------------------------------------------------------------------------------------------------>
@@ -32,21 +34,29 @@
             src="../assests/youtube (1).png" alt="youtube logo" /></a>
       </div>
     </nav>
+
+
+
+
+
     <!-- Hero-Image---------------------------------------------------------------------------------------------------->
-    <!-- <div class="contact-Container">
+    <div class="contact-Container">
       <div class="contact-Hero-Img">
         <img src="../assests/Fashion1A.jpg" alt="image of model" id="contact-hero" />
+      
         <div class="contact-txt">
-          <h1>Contact</h1>
+          <h1>CONTACT</h1>
         </div>
       </div>
-    </div> -->
-    <div class="hero-grid">
-      <img class="grid-img" src="../assests/Fashion1A.jpg" alt=" image of a woman posing">
-      <div class="h-txt">
-        <h1>Contact</h1>
-      </div>
     </div>
+
+
+     
+
+
+
+
+
       <!-- Mobile Navbar----------------------------------------------------------------------------------------------->
       <nav class="navbar smaller-nav-bg   nav-Mobile ">
         <div class="container-fluid">
@@ -58,6 +68,7 @@
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel">
+
             <div class="offcanvas-body bg-dark">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
@@ -87,14 +98,18 @@
       </nav>
     </div>
 </header>
-  <div class="vision-txt">
+
+
+  <div class="vision-txt container">
     <h2>
       We want to talk about your vision.</h2>
     <p>Your email address will not be published. Required fields are marked *</p>
     <p class="email-p">For further inquiries, email at: jakejacobs@vipv.pro</p>
   </div>
-  <div class="info-Box">
-    <div class="info-Container">
+
+  <div class="info-Box container">
+    <div class="row">
+    <div class="info-Container col-6">
       <p class="enter-txt">Your name*</p>
       <input class="enter-box" type="text">
       <p class="enter-txt">Your email*</p>
@@ -104,20 +119,37 @@
       <p class="enter-txt">Subject</p>
       <input class="enter-box" type="text">
     </div>
-    <div class="pic-Container">
-      <img class="contact-Logo" src="../assests/Logo_for_website_assignment-removebg-preview.png" alt="">
+    <div class="pic-Container col-6">
+      <img class="contact-Logo" src="../assests/Logo_for_website_assignment-removebg-preview.png" alt="company logo">
     </div>
   </div>
-  <div class="message-Container">
-    <p>Your message*</p>
-    <input class="message-Box" type="text">
+  
+
+
+
+  <div class="row">
+    <p style="margin-bottom: 0px;">Your message*</p>
+    <div class="form-floating">
+      <textarea class="form-control" style="height: 100px" ></textarea>
+    </div>
+    
   </div>
-  <div class="contact-Button container-fluid">
-    <button id="submit-BTN">Submit</button>
+
+
+
+  <div class="row">
+    <button id="submit-BTN"><h4>SUBMIT</h4></button>
   </div>
+</div>
+
   <div class="img2-Container">
     <img class="contact-img2" src="../assests/Couples1A.jpg" alt="Image of a couple posing">
   </div>
+
+
+
+
+
   <!-- Footer Section----------------------------------------------------------------------------------------------------------->
   <footer class="footer-container">
     <div class="container-fluid">
@@ -190,10 +222,18 @@
           </button>
         </div>
       </div>
+
     </div>
   </footer>
+
+
+
+
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
