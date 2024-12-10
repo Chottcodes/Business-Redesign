@@ -61,7 +61,7 @@ h1 {
 }
 
 .nav-link:hover {
-  color: rgb(201, 129, 78);
+  color: rgb(201, 129, 78) !important;
   text-decoration: underline;
 }
 
@@ -150,7 +150,7 @@ footer {
 }
 
 .offcanvas {
-  background-color: rgba(0, 0, 0, 0.425);
+  background-color: rgba(0, 0, 0, 0.781);
   height: fit-content;
   margin: 1rem;
 }
@@ -692,6 +692,10 @@ footer {
   #smallIMGs {
     object-fit: cover;
   }
+
+  .info-Box{
+    margin-left: 4rem !important;
+  }
 }
 
 .gallery-bridal-text-mobile {
@@ -978,6 +982,11 @@ footer {
   opacity: 0%;
   transition: 0.6s;
 }
+
+#book-session-BTN h4{
+  font-size: 40px;
+}
+
 .carousel-text-one h1 {
   color: white;
 }
@@ -1145,17 +1154,8 @@ footer {
   .about-carousel {
     margin-top: 0px;
   }
-  .smaller-footer {
-    height: 100%;
-  }
   .footer-container {
     display: none;
-  }
-  .footer-smaller-text h2,
-  h3,
-  h4 {
-    text-align: center;
-    font-size: 65px;
   }
   #address {
     font-size: 60px;
@@ -1320,18 +1320,10 @@ footer {
   .about-carousel {
     margin-top: 0px;
   }
-  .smaller-footer {
-    height: 100%;
-  }
   .footer-container {
     display: none;
   }
-  .footer-smaller-text h2,
-  h3,
-  h4 {
-    text-align: center;
-    font-size: 65px;
-  }
+ 
   #address {
     font-size: 60px;
   }
@@ -1411,12 +1403,7 @@ footer {
   .about-text h1 {
     font-size: 75px;
   }
-  .footer-smaller-text h2,
-  h3,
-  h4 {
-    text-align: center;
-    font-size: 50px;
-  }
+  
   .footer-smaller-BTN {
     height: 90px;
   }
@@ -1433,6 +1420,7 @@ footer {
   }
   .about-carousel {
     width: 90%;
+    height: 100%;
   }
   .img-1 {
     width: 100%;
@@ -1466,12 +1454,6 @@ footer {
   .about-text h1 {
     font-size: 75px;
   }
-  .footer-smaller-text h2,
-  h3,
-  h4 {
-    text-align: center;
-    font-size: 50px;
-  }
   .footer-smaller-BTN {
     height: 90px;
   }
@@ -1485,9 +1467,6 @@ footer {
   .footer-smaller-input h4 {
     margin-top: 5%;
     font-size: 45px;
-  }
-  .about-carousel {
-    width: 90%;
   }
   .img-1 {
     width: 100%;
@@ -1536,11 +1515,7 @@ footer {
     text-align: center;
     font-size: 35px;
   }
-  .footer-smaller-text h2,
-  h3,
-  h4 {
-    font-size: 40px;
-  }
+
   #address {
     font-size: 40px;
   }
@@ -1564,6 +1539,10 @@ footer {
   }
   .img-3 {
     aspect-ratio: 5/5;
+  }
+
+  .small-inputs{
+    margin: 0rem 3rem !important;
   }
 }
 /*About page End*/
@@ -1604,6 +1583,13 @@ footer {
   justify-content: center;
   color: white;
 }
+
+.footer-smaller-text2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .vision-txt {
   margin-top: 2rem;
 }
@@ -1635,12 +1621,26 @@ footer {
   padding: .5rem !important;
 }
 
+.form-floating{
+  padding: 0px !important;
+}
+
 .contact-Logo {
   width: 100%;
 }
 
 .enter-box {
   width: 500px;
+}
+
+.smaller-footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.small-inputs{
+  margin: 0rem 8rem;
 }
 
 .message-Container p {
@@ -1758,9 +1758,12 @@ footer {
 }
 
 @media (max-width: 636px) {
+  .info-Box{
+    margin-left: 0px;
+  }
   .enter-txt {
     font-size: 15px;
-    text-align: center;
+
   }
   .vision-txt {
     text-align: center;
@@ -1821,3 +1824,14 @@ footer {
 }
 
 /* Contact Page Ends---------------------------------------------------------- */
+
+@media screen and (max-width: 400px){
+  
+#smaller-nav-logo{
+  width: 100%;
+}
+
+.navbar-brand{
+  width: 50%;
+}
+}
