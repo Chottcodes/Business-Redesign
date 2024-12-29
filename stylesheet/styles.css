@@ -15,8 +15,13 @@
   src: url(/assests/fonts/Inter_28pt-Bold.ttf);
 }
 
+@font-face{
+  font-family: "Inter-Thin";
+  src: url(/assests/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
 body {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter-Thin", Arial, Helvetica, sans-serif;
   background-image: url(/assests/wallpaperwhite.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -28,7 +33,7 @@ body {
 }
 
 h1 {
-  font-family: "Inter-Bold";
+  font-family: "Inter";
   font-size: 64px;
   margin: 2rem;
 }
@@ -56,7 +61,7 @@ h1 {
 
 .nav-link {
   color: white;
-  font-family: "Inter-Bold";
+  font-family: "Inter-Thin";
   font-size: 2rem;
 }
 
@@ -416,6 +421,12 @@ footer {
   grid-row: 5;
   align-self: flex-end;
 }
+
+.footer-smaller-input
+{
+  margin: 8rem;
+}
+
 .outdoors-sm-5 {
   grid-column: 2/3;
   grid-row: 5;
@@ -984,7 +995,7 @@ footer {
 }
 
 #book-session-BTN h4{
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .carousel-text-one h1 {
@@ -1171,6 +1182,7 @@ footer {
     margin: auto;
     width: 50%;
     height: 100%;
+    margin: 8rem;
   }
   .footer-smaller-input input {
     height: 100px;

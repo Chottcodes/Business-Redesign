@@ -18,8 +18,13 @@
   src: url(/assests/fonts/Inter_28pt-Bold.ttf);
 }
 
+@font-face{
+  font-family: "Inter-Thin";
+  src: url(/assests/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
 body {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter-Thin", Arial, Helvetica, sans-serif;
   background-image: url(/assests/wallpaperwhite.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -31,7 +36,7 @@ body {
 }
 
 h1 {
-  font-family: "Inter-Bold";
+  font-family: "Inter";
   font-size: 64px;
   margin: 2rem;
 }
@@ -59,7 +64,7 @@ h1 {
 
 .nav-link {
   color: white;
-  font-family: "Inter-Bold";
+  font-family: "Inter-Thin";
   font-size: 2rem;
 }
 
@@ -73,10 +78,15 @@ h1 {
   margin: 2rem;
 }
 
+.nav-logo{
+  display: flex;
+  align-items: center;
+}
+
 .yt-logo {
-  width: 125px;
-  margin: 1rem;
-  margin-right: 4rem;
+  width: 75px;
+  margin: 2.5rem;
+  margin-left: .5rem;
 }
 /* navbar end */
 
@@ -98,9 +108,38 @@ h1 {
   align-items: center;
 }
 
+.mobileBtn{
+  width: 60%;
+}
+
+.gallery-grid h1{
+  font-family: 'Inter-Thin';
+}
+
 .landing-logo {
-  width: 35vw;
+  width: 15vw;
   margin: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sticky-footer{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem;
+  
+}
+
+.sticky-bg{
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.658);
+  border-top-left-radius: 6rem;
+  border-bottom-right-radius: 6rem;
+  position: relative;
+  z-index: 1;
 }
 
 .index-format {
@@ -141,16 +180,6 @@ h1 {
   width: 100%;
   object-fit: cover;
 }
-/* footer */
-
-footer {
-  background-color: black;
-  padding: 5rem 0rem 3rem 0rem;
-}
-
-.ig-logo {
-  width: 70px;
-}
 
 .offcanvas {
   background-color: rgba(0, 0, 0, 0.774);
@@ -187,6 +216,9 @@ footer {
 footer {
   background-color: black;
   padding: 5rem 0rem 3rem 0rem;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
 }
 
 .ig-logo {
@@ -491,7 +523,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 993px) {
   .gallery-grid-2 {
     display: grid !important;
     grid-template-columns: 1fr 1fr;
@@ -886,44 +918,36 @@ footer {
     grid-row: 12;
   }
 }
+.navbar{
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+.index-grid h1{
+  font-size: 48px;
+}
+}
 
 @media screen and (max-width: 993px) {
-  .smaller-nav-bg {
-    display: block;
-  }
-
-  .nav-format {
-    display: none;
-  }
-
-  .footer-container {
-    display: none;
-  }
   .footer-smaller-text2 {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-
-  .index-format {
-    display: none;
-  }
-
   
-}
-
-@media screen and (min-width: 993px) {
-  .smaller-footer {
+  .nav-about {
     display: none;
   }
 
-    .smaller-footer {
+  .sticky-footer{
     display: none;
   }
-  .smaller-nav-bg {
-    display: none;
+
+  .navbar{
+    display: block;
   }
-  .smaller-index-body {
+
+  .index-grid{
     display: none;
   }
 }
@@ -946,7 +970,7 @@ footer {
 }
 #smaller-nav-logo {
   width: 250px;
-  margin-left: 30px;
+  margin: 1rem;
 }
 .smaller-nav-bg {
   background-color: rgba(0, 0, 0, 0.349);
@@ -1003,6 +1027,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.591);
   top: 0;
   z-index: 1;
@@ -1028,12 +1053,14 @@ footer {
 }
 .car-2-long-txt {
   text-align: center;
-  vertical-align: middle;
   color: white;
-  height: 100%;
+  height: fit-content;
+  margin: 0rem 6rem;
+  
 }
 .car-2-long-txt h3 {
-  font-size: 6vw;
+  font-size: 4vw;
+  line-height: 1.5em;
 }
 
 .smaller-footer{
@@ -1043,10 +1070,14 @@ footer {
 }
 
 .small-inputs{
+  display: flex;
+  justify-content: center;
   margin: 0rem 8rem;
 }
 
-
+.small-inputs .form-control{
+  width: 60%;
+}
 
 @media screen and (max-width: 400px){
   .gallery-grid-2 {
